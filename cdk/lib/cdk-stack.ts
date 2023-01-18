@@ -3,7 +3,7 @@ import { Construct } from 'constructs';
 import * as assets from 'aws-cdk-lib/aws-s3-assets';
 import * as amplify from '@aws-cdk/aws-amplify-alpha';
 
-interface CdkStackProps extends  cdk.StackProps{
+interface CdkStackProps extends cdk.StackProps {
   appName: string;
 }
 
