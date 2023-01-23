@@ -320,11 +320,11 @@ __metadata:
   linkType: hard
 
 "acorn@npm:^8.4.1":
-  version: 8.8.1
-  resolution: "acorn@npm:8.8.1"
+  version: 8.8.2
+  resolution: "acorn@npm:8.8.2"
   bin:
     acorn: bin/acorn
-  checksum: 4079b67283b94935157698831967642f24a075c52ce3feaaaafe095776dfbe15d86a1b33b1e53860fc0d062ed6c83f4284a5c87c85b9ad51853a01173da6097f
+  checksum: f790b99a1bf63ef160c967e23c46feea7787e531292bb827126334612c234ed489a0dc2c7ba33156416f0ffa8d25bf2b0fdb7f35c2ba60eb3e960572bece4001
   languageName: node
   linkType: hard
 
@@ -557,9 +557,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.227
-  resolution: "constructs@npm:10.1.227"
-  checksum: e1fb167929148da66e3e9966b31a2c39f5cf039e9a8d007ed23cc973803b57fc44a714798861875514642d3ffe5f507a152a79eca1d74e764d5e3858089bd92e
+  version: 10.1.228
+  resolution: "constructs@npm:10.1.228"
+  checksum: 332b8e1d29377dca0bc3a042e85a1ce5a5ea83f3c02a141d5ea40aaf653274cd45187d53bced0bcaa25c5aa6e03671ea86aa847a61105f5caaed58cf97b6badb
   languageName: node
   linkType: hard
 
