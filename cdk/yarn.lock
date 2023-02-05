@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.52":
-  version: 2.2.55
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.55"
-  checksum: 6771a07899d84c6e0293e17a5a771d30fd5c3cdf0eeaf2d024ae4fceadc6bed1ce8b0afd122e3d84885c2b17937d381023e4957e095e6b19f409059dde601412
+  version: 2.2.58
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.58"
+  checksum: 22cbafce08f3a161bec84de17b96ce5ce370f78ef65bb3c5cc32e703551a8e7987170d56b832425bb5b757029c1399427dd94c5aa3e6f075215ca9e69b938756
   languageName: node
   linkType: hard
 
@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.42":
-  version: 2.0.44
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.44"
-  checksum: 62aa12f05814a2df0a4852c4d964dc9291fff3582094e6ea2a6dec2c4e86a97b5964b2638edaf3385e5a3324a2fc75c22222786e9f0dde1abfaebc45b454106b
+  version: 2.0.47
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.47"
+  checksum: 8e77c1f3fc51f082f0195269f2f88e2e5d5ef41901cf2c025773f9e22b9063af60c1ae5521f60d03698f4b142e1f20b1e2c24533c01feda37cffbd618cb909a2
   languageName: node
   linkType: hard
 
@@ -299,9 +299,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.11.18
-  resolution: "@types/node@npm:18.11.18"
-  checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
+  version: 18.11.19
+  resolution: "@types/node@npm:18.11.19"
+  checksum: d7cd19fcfc59cbdd3f9ba0b4072cb7adc21bd575bd8eb7d7e698975e63564aaa83f03434f32b12331f84f73d0b369d9cbe2371e359d9d7f5c3361f4987f4f7da
   languageName: node
   linkType: hard
 
@@ -397,8 +397,8 @@ __metadata:
   linkType: hard
 
 "aws-cdk-lib@npm:*":
-  version: 2.63.0
-  resolution: "aws-cdk-lib@npm:2.63.0"
+  version: 2.63.2
+  resolution: "aws-cdk-lib@npm:2.63.2"
   dependencies:
     "@aws-cdk/asset-awscli-v1": ^2.2.52
     "@aws-cdk/asset-kubectl-v20": ^2.1.1
@@ -414,13 +414,13 @@ __metadata:
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: 0a24ca370c07898dbe1e8e5c6255e6c32e48edab5fd9f4a1e0b65fbf33a02a11d0575a44638e1b421592a77e4d93f8e9e799cfcbc273501131a2a1c6e1d02cb2
+  checksum: 4b16f567f748c104c7112863de1b209bb04a27b520ad75cbf2df85865e69af7f7a08dc5f5ff44655905570d385b8b37d66cbb09aec4de59023fe548f5299e61e
   languageName: node
   linkType: hard
 
 "aws-cdk@npm:*":
-  version: 2.63.0
-  resolution: "aws-cdk@npm:2.63.0"
+  version: 2.63.2
+  resolution: "aws-cdk@npm:2.63.2"
   dependencies:
     fsevents: 2.3.2
   dependenciesMeta:
@@ -428,7 +428,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: d20f6e86e6082356db8403dc959a08dd9f392d73d6936befd15b2923011e158fad91f797ff51d96302e20398fde84fb7c28ff487f274be8165fde18dff58c16d
+  checksum: 4a017797859b67d24738d87c6c7c9832afb13fa185d72f143f2275701f385139d841460c60f5b6ee7620e1fb89b4383d223e1246dfa1baf22862f00a9db486fa
   languageName: node
   linkType: hard
 
@@ -557,9 +557,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.238
-  resolution: "constructs@npm:10.1.238"
-  checksum: abc4b1d5a6338eb3d8546172c146df8a9714be3b045a91425e7c60eb1596fb9470298713e9673c575c5670f4ee3bb82ba7ec82a4fbe5bf478afd050ca2da4d75
+  version: 10.1.241
+  resolution: "constructs@npm:10.1.241"
+  checksum: 110026355db7f08a6ada3a7b7fbe5bde0bc427be77d011da3c1687b482af580f27cc4c92a1529fd53a896a570b630617c8ef4458a4279e1ad04bc898a68bf089
   languageName: node
   linkType: hard
 
@@ -1002,9 +1002,9 @@ __metadata:
   linkType: hard
 
 "minipass@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "minipass@npm:4.0.1"
-  checksum: 48eb3141cc247b44f738944cbd789aedeed9288ebdb64c7de9b3bf23e9e71d611381bfecf643d877d25f7ca9f3d5ab7b6757ef6f46282086812ac5372b7cd291
+  version: 4.0.2
+  resolution: "minipass@npm:4.0.2"
+  checksum: 2e4f4caaf85a45c01c6042adc43b5111a6113f62e300acf1db3b193ac3ec6e955bc893d6d8a08635598771a55a0f60487dcac59a1ac39557eb524295d4778c9e
   languageName: node
   linkType: hard
 
