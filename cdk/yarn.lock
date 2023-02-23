@@ -5,10 +5,10 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@aws-cdk/asset-awscli-v1@npm:^2.2.65":
-  version: 2.2.73
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.73"
-  checksum: 1d539f1587650b4dc7393e8ace0092cb660df738a37600f648f4647822161dc8c361b3d1af9e9854d303dcd1fc59502944dc71c98d8c01fb6f11342e8ee4937a
+"@aws-cdk/asset-awscli-v1@npm:^2.2.69":
+  version: 2.2.79
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.79"
+  checksum: 1431857cda65e36e96b8dac45ec295aa664124a5d104d77eacfe7e41a5827f76551ceb0dcdb589635e0d899b76f439c1d3d60c14c24d37e3ecb0633c2ffb5d6e
   languageName: node
   linkType: hard
 
@@ -19,10 +19,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.54":
-  version: 2.0.62
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.62"
-  checksum: 0b5a73122ff82a2397900e60103e7a161280de39115085090b9f167ca78f461acdb34c7a9dc3809ebb74c6ab36adfe2aa5603e0d409103625c8a26c2edf474a3
+"@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.58":
+  version: 2.0.65
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.65"
+  checksum: d87c9350721f25bfdf66c8b89cd2f522380bab3ec14cc08c55cfc379b5d79fe72e048eaaa21a51e63ff03bd46d79ba79c1506238ae00b1e03e904cdfa2555ebe
   languageName: node
   linkType: hard
 
@@ -397,12 +397,12 @@ __metadata:
   linkType: hard
 
 "aws-cdk-lib@npm:*":
-  version: 2.65.0
-  resolution: "aws-cdk-lib@npm:2.65.0"
+  version: 2.66.0
+  resolution: "aws-cdk-lib@npm:2.66.0"
   dependencies:
-    "@aws-cdk/asset-awscli-v1": ^2.2.65
+    "@aws-cdk/asset-awscli-v1": ^2.2.69
     "@aws-cdk/asset-kubectl-v20": ^2.1.1
-    "@aws-cdk/asset-node-proxy-agent-v5": ^2.0.54
+    "@aws-cdk/asset-node-proxy-agent-v5": ^2.0.58
     "@balena/dockerignore": ^1.0.2
     case: 1.6.3
     fs-extra: ^9.1.0
@@ -414,7 +414,7 @@ __metadata:
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: 2a9b760e82e1c43875948d99620b8ed8d6cac9f9e6ba56c991aa6eff8acf2ad635207c1508b352273b0bee2633f51434e00719133c944caffae197690730ec17
+  checksum: f24480c40df05bf0f2755bf8cd9bb3897f8cc048dec20594518f86f2e596f257573ecc1c80d2a4a2411fda4e95fa4d3ccd95d2535d4283c0e8688c329bb516a0
   languageName: node
   linkType: hard
 
