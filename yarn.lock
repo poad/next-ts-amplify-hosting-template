@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.69":
-  version: 2.2.79
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.79"
-  checksum: 1431857cda65e36e96b8dac45ec295aa664124a5d104d77eacfe7e41a5827f76551ceb0dcdb589635e0d899b76f439c1d3d60c14c24d37e3ecb0633c2ffb5d6e
+  version: 2.2.80
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.80"
+  checksum: 535a847731fc1db647f7a93a6dee125f17c9a91f9c8d915c7d758f6b5032795af02759e85b068318eeb25d26fcb71eb3803f84f39495703edcbfca6d34d9a163
   languageName: node
   linkType: hard
 
@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.58":
-  version: 2.0.65
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.65"
-  checksum: d87c9350721f25bfdf66c8b89cd2f522380bab3ec14cc08c55cfc379b5d79fe72e048eaaa21a51e63ff03bd46d79ba79c1506238ae00b1e03e904cdfa2555ebe
+  version: 2.0.66
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.66"
+  checksum: edee317a21cf4253969143581c0f2c05f68abf5e6667313679949e49972f0f0d21dc7669fe341f5f7133f35bba056d0bb0a899b7fdbefc311657704c49aa78e2
   languageName: node
   linkType: hard
 
@@ -83,107 +83,107 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/env@npm:13.2.0"
-  checksum: 2b3fb5ae14bcb39c447f6a75f166a54cbb5ddc0a6c2034138ee3cfa8c30a933008d3ece24a172bc979f6571e7e28b995ea91770fc1363223b8220eacec4c65a2
+"@next/env@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/env@npm:13.2.1"
+  checksum: 16a877479348b9d6a9e69e74312546889d6419a6dec0556cf7d9ed5876b4f69a0974c804f2c5ec81526522c243d97bd2d6919d3241cd165e10e8fd6c3bb4b975
   languageName: node
   linkType: hard
 
 "@next/font@npm:^13":
-  version: 13.2.0
-  resolution: "@next/font@npm:13.2.0"
-  checksum: 5ff753db08d835bd003f33f69bedc3243701dddf9d4603e80607481fee9364323a288e03a2ccae9e84ff74a3ba575ca4141e2b5568ae814eb84a353d24c9de1c
+  version: 13.2.1
+  resolution: "@next/font@npm:13.2.1"
+  checksum: 6231ca2d3fc887c0dd4e25ae8cebb090c477c6fc980b96b56f43b2ad6b989c9f588490ae680fc578b5584ae3b18a40d129c27b642afe9cfc4a953ea43145b1ee
   languageName: node
   linkType: hard
 
-"@next/swc-android-arm-eabi@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-android-arm-eabi@npm:13.2.0"
+"@next/swc-android-arm-eabi@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-android-arm-eabi@npm:13.2.1"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@next/swc-android-arm64@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-android-arm64@npm:13.2.0"
+"@next/swc-android-arm64@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-android-arm64@npm:13.2.1"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-darwin-arm64@npm:13.2.0"
+"@next/swc-darwin-arm64@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-darwin-arm64@npm:13.2.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-darwin-x64@npm:13.2.0"
+"@next/swc-darwin-x64@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-darwin-x64@npm:13.2.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-freebsd-x64@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-freebsd-x64@npm:13.2.0"
+"@next/swc-freebsd-x64@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-freebsd-x64@npm:13.2.1"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm-gnueabihf@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-linux-arm-gnueabihf@npm:13.2.0"
+"@next/swc-linux-arm-gnueabihf@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-linux-arm-gnueabihf@npm:13.2.1"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-linux-arm64-gnu@npm:13.2.0"
+"@next/swc-linux-arm64-gnu@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-linux-arm64-gnu@npm:13.2.1"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-linux-arm64-musl@npm:13.2.0"
+"@next/swc-linux-arm64-musl@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-linux-arm64-musl@npm:13.2.1"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-linux-x64-gnu@npm:13.2.0"
+"@next/swc-linux-x64-gnu@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-linux-x64-gnu@npm:13.2.1"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-linux-x64-musl@npm:13.2.0"
+"@next/swc-linux-x64-musl@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-linux-x64-musl@npm:13.2.1"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-win32-arm64-msvc@npm:13.2.0"
+"@next/swc-win32-arm64-msvc@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-win32-arm64-msvc@npm:13.2.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-win32-ia32-msvc@npm:13.2.0"
+"@next/swc-win32-ia32-msvc@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-win32-ia32-msvc@npm:13.2.1"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@next/swc-win32-x64-msvc@npm:13.2.0"
+"@next/swc-win32-x64-msvc@npm:13.2.1":
+  version: 13.2.1
+  resolution: "@next/swc-win32-x64-msvc@npm:13.2.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -527,8 +527,8 @@ __metadata:
   linkType: hard
 
 "aws-cdk-lib@npm:*":
-  version: 2.66.0
-  resolution: "aws-cdk-lib@npm:2.66.0"
+  version: 2.66.1
+  resolution: "aws-cdk-lib@npm:2.66.1"
   dependencies:
     "@aws-cdk/asset-awscli-v1": ^2.2.69
     "@aws-cdk/asset-kubectl-v20": ^2.1.1
@@ -544,13 +544,13 @@ __metadata:
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: f24480c40df05bf0f2755bf8cd9bb3897f8cc048dec20594518f86f2e596f257573ecc1c80d2a4a2411fda4e95fa4d3ccd95d2535d4283c0e8688c329bb516a0
+  checksum: a2a0207866f9c4ecaf2ad54dde3624fc4500d6d041ff0b7c734dcceb94a4cd5ee9c5e5a6b440ff7a2a080aa604eebdd089631e161af11c078cb36c42d92960cb
   languageName: node
   linkType: hard
 
 "aws-cdk@npm:*":
-  version: 2.66.0
-  resolution: "aws-cdk@npm:2.66.0"
+  version: 2.66.1
+  resolution: "aws-cdk@npm:2.66.1"
   dependencies:
     fsevents: 2.3.2
   dependenciesMeta:
@@ -558,7 +558,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: 5640f80ebd8798a118a80414ca60aa30b5f1c4d65c17369cb2ccb64a0fc6b8ad7841f0f0e7762a2f9df8cbb3f7592216eb7239e300bc80ad2abb0354348f11e5
+  checksum: 71745adddd85de13e3abe27fbf3080eb64eb75feba0114188f2b404f7c7547aac67854aac90eeb8b9b7eb29004107a1016543d6336fb19f9e37a9dcd2c44fdb4
   languageName: node
   linkType: hard
 
@@ -701,9 +701,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.258
-  resolution: "constructs@npm:10.1.258"
-  checksum: 7c9046125b226eb677f074338914478c0db173cb2c8eab82e8810bdfad2be6834807e416b757a62d19e9108f269b2ec8cfb4c69c80b2b526065b926c7037689e
+  version: 10.1.259
+  resolution: "constructs@npm:10.1.259"
+  checksum: d3d88b3c17799e0f741378e992263798c58f5b4afb08af4d59eeaad20af5f4d8511017c1ab7333e675fdde512f7016bf9b4c455c7587b060b99682955a4d0946
   languageName: node
   linkType: hard
 
@@ -1171,9 +1171,9 @@ __metadata:
   linkType: hard
 
 "minipass@npm:^4.0.0":
-  version: 4.2.0
-  resolution: "minipass@npm:4.2.0"
-  checksum: 3c3ce269eacdcecb56b5dfe4bb4ab905d60fea1af4c967c7ed54baadfdd4af03e4d926567fb655957504fb4c9e2e7adbb2dc636927dfb56c829f2b25f1b2b3dd
+  version: 4.2.1
+  resolution: "minipass@npm:4.2.1"
+  checksum: 727641018e2b2dcd8fb6239b9220b4f0ef1b43d279dcb7f53840f7c43d005a36f0cdcfe2ffbc18ce32fae2ea484d3e7d3cb29cbe99c9274b0365bbb74661266c
   languageName: node
   linkType: hard
 
@@ -1244,23 +1244,23 @@ __metadata:
   linkType: soft
 
 "next@npm:^13":
-  version: 13.2.0
-  resolution: "next@npm:13.2.0"
+  version: 13.2.1
+  resolution: "next@npm:13.2.1"
   dependencies:
-    "@next/env": 13.2.0
-    "@next/swc-android-arm-eabi": 13.2.0
-    "@next/swc-android-arm64": 13.2.0
-    "@next/swc-darwin-arm64": 13.2.0
-    "@next/swc-darwin-x64": 13.2.0
-    "@next/swc-freebsd-x64": 13.2.0
-    "@next/swc-linux-arm-gnueabihf": 13.2.0
-    "@next/swc-linux-arm64-gnu": 13.2.0
-    "@next/swc-linux-arm64-musl": 13.2.0
-    "@next/swc-linux-x64-gnu": 13.2.0
-    "@next/swc-linux-x64-musl": 13.2.0
-    "@next/swc-win32-arm64-msvc": 13.2.0
-    "@next/swc-win32-ia32-msvc": 13.2.0
-    "@next/swc-win32-x64-msvc": 13.2.0
+    "@next/env": 13.2.1
+    "@next/swc-android-arm-eabi": 13.2.1
+    "@next/swc-android-arm64": 13.2.1
+    "@next/swc-darwin-arm64": 13.2.1
+    "@next/swc-darwin-x64": 13.2.1
+    "@next/swc-freebsd-x64": 13.2.1
+    "@next/swc-linux-arm-gnueabihf": 13.2.1
+    "@next/swc-linux-arm64-gnu": 13.2.1
+    "@next/swc-linux-arm64-musl": 13.2.1
+    "@next/swc-linux-x64-gnu": 13.2.1
+    "@next/swc-linux-x64-musl": 13.2.1
+    "@next/swc-win32-arm64-msvc": 13.2.1
+    "@next/swc-win32-ia32-msvc": 13.2.1
+    "@next/swc-win32-x64-msvc": 13.2.1
     "@swc/helpers": 0.4.14
     caniuse-lite: ^1.0.30001406
     postcss: 8.4.14
@@ -1310,7 +1310,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 169e9f0778831b8b61a4152a8eb01efdd21b2b7d61e887e13ce218b2b35d2ab749aab6b9febd3cd5af2c415c008da5947f889ca390a818b73c8f7b195db84c31
+  checksum: 2dba145ef4d604cd8eadc27f9e5a537df799614d1a801b9161a997f77a432684871eae51642580972a80ef363d724789677ae7c5fe44dc3dd66e71cd43f609c8
   languageName: node
   linkType: hard
 
