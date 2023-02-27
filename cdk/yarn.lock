@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.69":
-  version: 2.2.82
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.82"
-  checksum: 6527928600239da9d28fccbbd1e5b58d0eaaa015282f7bfcfa1993cb2e16b51f433994d3e582915c5b6828f7795e40690b7b9d3acde8be1ce1d16b9ffd833f15
+  version: 2.2.83
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.83"
+  checksum: 72432d00094f8747065e4d03439f56924905501690e1043068033dff726287be7ac5658f9484ce83476035b0b174f8f2d4e203fe781cb86932ddd1c49ea77e5f
   languageName: node
   linkType: hard
 
@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.58":
-  version: 2.0.68
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.68"
-  checksum: ce712aa4839c1880e49c5043546ac57856d291aa27e2f9f32ab494ab090909ac4e1b220bb1fd369dd236a8e2c60d3b146a8131465c8a47fd397611b22d49739b
+  version: 2.0.69
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.69"
+  checksum: 892797b76aab9db087851b482647ad5daf2286d62b7c8974fd73818b8b6ebc99b184f34425b57eb620d76e4916b457dda7d4a12a4800074c3a830e4227af65b1
   languageName: node
   linkType: hard
 
@@ -557,9 +557,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.261
-  resolution: "constructs@npm:10.1.261"
-  checksum: 81d8a4609b1c5624e40a7b8e21d94708ac90a51ab5a2cfd2435c1690d5b440e20d18b1095eb30010b2d044046d02b0695e216a38efd788512a050f58d74cbe60
+  version: 10.1.262
+  resolution: "constructs@npm:10.1.262"
+  checksum: e48f0f55c3720bc19f43bfcc5e2f53eae783833d47a9849c45ae95e563410b7c34820cb692dbf88b001beb2dfa4c4e5fce8ada3400fcb24cda41ffa06d2116d8
   languageName: node
   linkType: hard
 
