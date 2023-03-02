@@ -701,9 +701,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.263
-  resolution: "constructs@npm:10.1.263"
-  checksum: f4417f53f050bf1d957632a16c3b3880456215c075f005b473be3b76e2cd7c7d736969a69bd6379d9ce18dcf355d54ab61e343115af0f8ed30b52c4c4e5bea86
+  version: 10.1.265
+  resolution: "constructs@npm:10.1.265"
+  checksum: 1c82fe737359f0286abb2359c34baa45eff44f0877875b5d9cecb99f0da0f7c53459321bd34cd05634731984ea07a7528a904ccacbb96d8499df0cbf85856de4
   languageName: node
   linkType: hard
 
