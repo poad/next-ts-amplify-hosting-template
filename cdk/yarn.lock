@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.85":
-  version: 2.2.93
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.93"
-  checksum: 5baac1e3da8c687289882d55ecf7ee8c4bdda0729710f9e65bf3880ff729054787398097d1a0216cc22ecaa4f690d6a7ef0f9a15cc0890c24ffd0ceb51cdcacf
+  version: 2.2.95
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.95"
+  checksum: a797a8b968353374c873b16ac2aeba716a3907af453dab7c577a8bc0e627c680bf5148e1beb127e4c4f77e59c42743c115336e307ea75f8ee92f471bf5f12aaa
   languageName: node
   linkType: hard
 
