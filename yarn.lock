@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.97":
-  version: 2.2.110
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.110"
-  checksum: eb5db70983bca7c4d91dd91c8b56921b3cfe949364c922dfd9e0644d0d7d09e86cfbd9c60a4ab491578a3b16dc89b15f3300500325009a7feb44c88bf1a65c86
+  version: 2.2.112
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.112"
+  checksum: d5006352d16b867affe4bc90afdffffa2377316afcd626b072f41e423b7ff711fe125fb8505bd36b6b792af106f66e8601e565d7a0134b521c1e23cec910bd9e
   languageName: node
   linkType: hard
 
@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.77":
-  version: 2.0.89
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.89"
-  checksum: d2e4d8744d45fe00f514d6f574220afc40cae23389a6c37997e3c158786b8fe26e5a50825f59891b4631edf4bd731fee4a09ae73f66ba424575bf4c20c7e4169
+  version: 2.0.90
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.90"
+  checksum: 9140f4e4c358b20be50bc8edb4a0f419b95fd11df34f2e8b1f88060e0c685c5bff80e5a7c911673a3ad7f45c56a2f0ced95b9c7a22de14c1b3945f696b92233a
   languageName: node
   linkType: hard
 
@@ -404,9 +404,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.15.3
-  resolution: "@types/node@npm:18.15.3"
-  checksum: 31b1d92475a82c30de29aa6c0771b18a276552d191283b4423ba2d61b3f01159bf0d02576c0b7cc834b043997893800db6bb47f246083ed85aa45e79c80875d7
+  version: 18.15.5
+  resolution: "@types/node@npm:18.15.5"
+  checksum: 5fbf3453bd5ce1402bb2964e55d928fc8a8a7de5451b1b0fe66587fecb8a3eb86854ca9cefa5076a5971e2cff00e1773ceeb5d872a54f6c6ddfbbc1064b4e91a
   languageName: node
   linkType: hard
 
@@ -701,9 +701,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.282
-  resolution: "constructs@npm:10.1.282"
-  checksum: 0e08a663184ab862a91274793fb255e86f3b3f23884179e1b690570896a9ef528e9460b7a01c7a54821f9d08416cc620c4939595226dbf3d6e225d348dfbf0dc
+  version: 10.1.283
+  resolution: "constructs@npm:10.1.283"
+  checksum: 468c04b1c17ca1a0058eb37197b9104dd9ecdd1fa60ff8d63a7a3cb3591f09b20a3f81da0d5f9faeea99ea059019a7ea8920cafd4ca322a4e59533f4ab7f807e
   languageName: node
   linkType: hard
 
