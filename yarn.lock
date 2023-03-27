@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.97":
-  version: 2.2.118
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.118"
-  checksum: 4ba69ccb5e35e8429087a2a211c9ecc27e2afd1b7ec6cab90d21871a3447d9258dee0a87b6068cce874e7dbfe2b908a4add13d4af7a700c9ce51c01c75581abd
+  version: 2.2.120
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.120"
+  checksum: 0461dfae8df7f54f569fb6f32debfd5bb3a8b37161606d8789a20544dfa808a1424d9c083a92dd233802b556df712f20071d7c0cd9098d8a4e94f3d855996db7
   languageName: node
   linkType: hard
 
@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.77":
-  version: 2.0.96
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.96"
-  checksum: 3b9fe5ee9df84fd1d74c0c2f919f9adc1a5d754fab6206528f294431cd1035d77f7d92595b0882d4887446f089b292761b048ead81085ccaca33175e69f24dc3
+  version: 2.0.97
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.97"
+  checksum: d4c61f5d203f52d04950d38630f0ec425dce6b2417a40330b13ed604a0a3f7893c4bd8d79d71ab26ae8add471e1d175c96e96b27e03a65204337a7691e5d7d0e
   languageName: node
   linkType: hard
 
@@ -418,13 +418,13 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:*":
-  version: 18.0.29
-  resolution: "@types/react@npm:18.0.29"
+  version: 18.0.30
+  resolution: "@types/react@npm:18.0.30"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 75f56f81d80a1c15ee3fcd2039bdc5f7a70f49cf69827ee0fc8beece9809b234f245dd62552e91018d8f25792986bd513b44caf054554d5c5eb979a5f9460214
+  checksum: 3ca13fd10a1ee92826e37cd8c2fe563bff65d4bdb3ff53f632bc46c8fba2e94e24247b4b77ce957677a54e592299782e1235f7a3dfcfea327cb3213ddc98e968
   languageName: node
   linkType: hard
 
@@ -701,9 +701,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.291
-  resolution: "constructs@npm:10.1.291"
-  checksum: d087a5f716e00eca3f212d64308b98b3d2508d82355b593abf7cfc07089012cbb20f209c2f3764733be32dc86418b3bc0be68c5dbaf83bdc1f8152930d406c8b
+  version: 10.1.292
+  resolution: "constructs@npm:10.1.292"
+  checksum: 740b787c6e83f80c72e31117ab96c8cff7376ef5fe7080c933ebb7a14598734ea1da97421ee2a69dd82d382525dd3597f9b97adf4cfc63e8739684c4db0288e9
   languageName: node
   linkType: hard
 
