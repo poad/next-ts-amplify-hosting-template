@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.97":
-  version: 2.2.123
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.123"
-  checksum: e63d2f1aebbc1a654003ba5694aacfbecf3137556a33eced5bc644d49d17fdcbe6084690bd55451e0d708d0f40d09d397a607eb4fb86c770f3f63469a584e8fc
+  version: 2.2.126
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.126"
+  checksum: f5bb4b120c108428deb83b2bffa450ede5bb9fcc512bf9cc6c5cbfbb47878b4a93b016cf0c7c32babe4304ac3c726f6566d04e2ad1ac91959aff8a4159b9b335
   languageName: node
   linkType: hard
 
@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.77":
-  version: 2.0.100
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.100"
-  checksum: e9ea3561ea4415a44c81f50324dc96305caf6808dbeab3d9902bdbb1bafa03a54770825cc578a8fa252fb328ed745a220988ba9d4c618d62c894762c32c8cb3f
+  version: 2.0.103
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.103"
+  checksum: a0bc14496804d0ed425fbfaf1aaa6047106135d6bf90681b08e1010637b684439b2f23d3737cf4760bb6776ce05a785182e62bf3ec1e85e2ec3d017aff732217
   languageName: node
   linkType: hard
 
@@ -425,8 +425,8 @@ __metadata:
   linkType: hard
 
 "aws-cdk-lib@npm:*":
-  version: 2.72.0
-  resolution: "aws-cdk-lib@npm:2.72.0"
+  version: 2.72.1
+  resolution: "aws-cdk-lib@npm:2.72.1"
   dependencies:
     "@aws-cdk/asset-awscli-v1": ^2.2.97
     "@aws-cdk/asset-kubectl-v20": ^2.1.1
@@ -443,13 +443,13 @@ __metadata:
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: 629e7d71aeab614015e6fbb0fc113d33c406f8ca8c2cd63d31a1a177322f7a7f53781f5f6f638d15a86b5ae1ccc1bfbc815e31e3a9d918901e582d46a19aee0c
+  checksum: 04199a1ea158532fd91988af1b63dae19dc47091e2048b9c65fbddeee54057a61e2cfc5843e47aeed45f6392d547ae8dc3792e08a0e67bc13269a8df6b75f31c
   languageName: node
   linkType: hard
 
 "aws-cdk@npm:*":
-  version: 2.72.0
-  resolution: "aws-cdk@npm:2.72.0"
+  version: 2.72.1
+  resolution: "aws-cdk@npm:2.72.1"
   dependencies:
     fsevents: 2.3.2
   dependenciesMeta:
@@ -457,7 +457,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: 88d822c43469fefa0931454cf3b34cd138f2540e3a4ff593496b58d430eb4f50b1ff92045810bc87a39f806d21b238cadba8ff9c1f95e3f1c63eb0a8951155db
+  checksum: 5f6dda26974e475744cec5d3d587f3d3fed5af256258da1ea2e9da6c2b0475b29f9eec78f17f6fa23eb0c9c965c61ae78f55d9b75106c98d06ac67afc9cb86dc
   languageName: node
   linkType: hard
 
@@ -602,9 +602,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.296
-  resolution: "constructs@npm:10.1.296"
-  checksum: c5999d9461c6f3c911578af39e12408227db6b138b80ee60a685b921996aae53d519853dcfa4e62243bd34b2fee9517c6f73a5225bdaf17ae9b3c28fd0c184ed
+  version: 10.1.299
+  resolution: "constructs@npm:10.1.299"
+  checksum: 5a259f102719dcdc578f6b9ac937cc490e02436520c6b66981bab36d0798feba9aa3024007320fd6a6713008196567bd0feeea98f18bb02112e48570714f2af4
   languageName: node
   linkType: hard
 

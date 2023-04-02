@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.97":
-  version: 2.2.123
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.123"
-  checksum: e63d2f1aebbc1a654003ba5694aacfbecf3137556a33eced5bc644d49d17fdcbe6084690bd55451e0d708d0f40d09d397a607eb4fb86c770f3f63469a584e8fc
+  version: 2.2.126
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.126"
+  checksum: f5bb4b120c108428deb83b2bffa450ede5bb9fcc512bf9cc6c5cbfbb47878b4a93b016cf0c7c32babe4304ac3c726f6566d04e2ad1ac91959aff8a4159b9b335
   languageName: node
   linkType: hard
 
@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.77":
-  version: 2.0.100
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.100"
-  checksum: e9ea3561ea4415a44c81f50324dc96305caf6808dbeab3d9902bdbb1bafa03a54770825cc578a8fa252fb328ed745a220988ba9d4c618d62c894762c32c8cb3f
+  version: 2.0.103
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.103"
+  checksum: a0bc14496804d0ed425fbfaf1aaa6047106135d6bf90681b08e1010637b684439b2f23d3737cf4760bb6776ce05a785182e62bf3ec1e85e2ec3d017aff732217
   languageName: node
   linkType: hard
 
@@ -418,13 +418,13 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:*":
-  version: 18.0.31
-  resolution: "@types/react@npm:18.0.31"
+  version: 18.0.32
+  resolution: "@types/react@npm:18.0.32"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 6befbd5587e266905b50fd6bbd7c1cacd557bddf99e6a9862ca2f1d06df3dca71b9d485a37d010479730f021aab93b852d417c714de5efc2f41be0ff4c09b4db
+  checksum: c8dbce83c455e520e75f3649988f46100e3a3c0bf7241281ea5bd9067a0368290f0d7c6102e12e6ec9d649134b29a3ef4c421f376ec5aa06ed78cbdd8c144b4c
   languageName: node
   linkType: hard
 
@@ -555,8 +555,8 @@ __metadata:
   linkType: hard
 
 "aws-cdk-lib@npm:*":
-  version: 2.72.0
-  resolution: "aws-cdk-lib@npm:2.72.0"
+  version: 2.72.1
+  resolution: "aws-cdk-lib@npm:2.72.1"
   dependencies:
     "@aws-cdk/asset-awscli-v1": ^2.2.97
     "@aws-cdk/asset-kubectl-v20": ^2.1.1
@@ -573,13 +573,13 @@ __metadata:
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: 629e7d71aeab614015e6fbb0fc113d33c406f8ca8c2cd63d31a1a177322f7a7f53781f5f6f638d15a86b5ae1ccc1bfbc815e31e3a9d918901e582d46a19aee0c
+  checksum: 04199a1ea158532fd91988af1b63dae19dc47091e2048b9c65fbddeee54057a61e2cfc5843e47aeed45f6392d547ae8dc3792e08a0e67bc13269a8df6b75f31c
   languageName: node
   linkType: hard
 
 "aws-cdk@npm:*":
-  version: 2.72.0
-  resolution: "aws-cdk@npm:2.72.0"
+  version: 2.72.1
+  resolution: "aws-cdk@npm:2.72.1"
   dependencies:
     fsevents: 2.3.2
   dependenciesMeta:
@@ -587,7 +587,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: 88d822c43469fefa0931454cf3b34cd138f2540e3a4ff593496b58d430eb4f50b1ff92045810bc87a39f806d21b238cadba8ff9c1f95e3f1c63eb0a8951155db
+  checksum: 5f6dda26974e475744cec5d3d587f3d3fed5af256258da1ea2e9da6c2b0475b29f9eec78f17f6fa23eb0c9c965c61ae78f55d9b75106c98d06ac67afc9cb86dc
   languageName: node
   linkType: hard
 
@@ -746,9 +746,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.296
-  resolution: "constructs@npm:10.1.296"
-  checksum: c5999d9461c6f3c911578af39e12408227db6b138b80ee60a685b921996aae53d519853dcfa4e62243bd34b2fee9517c6f73a5225bdaf17ae9b3c28fd0c184ed
+  version: 10.1.299
+  resolution: "constructs@npm:10.1.299"
+  checksum: 5a259f102719dcdc578f6b9ac937cc490e02436520c6b66981bab36d0798feba9aa3024007320fd6a6713008196567bd0feeea98f18bb02112e48570714f2af4
   languageName: node
   linkType: hard
 
@@ -760,9 +760,9 @@ __metadata:
   linkType: hard
 
 "csstype@npm:^3.0.2":
-  version: 3.1.1
-  resolution: "csstype@npm:3.1.1"
-  checksum: 1f7b4f5fdd955b7444b18ebdddf3f5c699159f13e9cf8ac9027ae4a60ae226aef9bbb14a6e12ca7dba3358b007cee6354b116e720262867c398de6c955ea451d
+  version: 3.1.2
+  resolution: "csstype@npm:3.1.2"
+  checksum: e1a52e6c25c1314d6beef5168da704ab29c5186b877c07d822bd0806717d9a265e8493a2e35ca7e68d0f5d472d43fac1cdce70fd79fd0853dff81f3028d857b5
   languageName: node
   linkType: hard
 
@@ -927,14 +927,14 @@ __metadata:
   linkType: hard
 
 "glob@npm:^9.2.0":
-  version: 9.3.2
-  resolution: "glob@npm:9.3.2"
+  version: 9.3.4
+  resolution: "glob@npm:9.3.4"
   dependencies:
     fs.realpath: ^1.0.0
-    minimatch: ^7.4.1
+    minimatch: ^8.0.2
     minipass: ^4.2.4
     path-scurry: ^1.6.1
-  checksum: f3d188e9f70e24fa729a63ca197bcdb36d838677abec1fb9bbfe4b7620063bf90dc0f8d195203d632abfdfa049fad0edf22f93c60076de67cef20c23bcbfaee8
+  checksum: bcf49eaf475dc4ce8d4e98f896408a9f6507a2cb7d24a207c012cb318b969e04a02bcde2ff2920eadd5055ccae444a007b769e418147a56268fab2cda8694cde
   languageName: node
   linkType: hard
 
@@ -1188,12 +1188,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^7.4.1":
-  version: 7.4.3
-  resolution: "minimatch@npm:7.4.3"
+"minimatch@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "minimatch@npm:8.0.2"
   dependencies:
     brace-expansion: ^2.0.1
-  checksum: daa954231b6859e3ba0e5fbd2486986d3cae283bb69acb7ed3833c84a293f8d7edb8514360ea62c01426ba791446b2a1e1cc0d718bed15c0212cef35c59a6b95
+  checksum: ceb50867205c716a1d027e6de3bd5976a940cec266acf05ff41c29bff9967290a867b381f6317fcebddfb056f0eedff88484d121e4449c3bb16c552a51b7a745
   languageName: node
   linkType: hard
 
