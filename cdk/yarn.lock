@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.97":
-  version: 2.2.133
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.133"
-  checksum: addb24f0250a268da689a3b8364c65f8e22dc6cc0e2463c77ea3ccb6317f95ce379063715aeffe5acfa2aadb66baec03ec4a2aabbc19953d7a3e7ee1d7c3bf05
+  version: 2.2.136
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.136"
+  checksum: b79d63b42572068c833d387aa9f70bb4f2259eaaed29b937057e3858e1277e29b06d53fdc83fcda5a6e55548782c77d877cf20c2f6543a8f63f533f9738c1496
   languageName: node
   linkType: hard
 
@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.77":
-  version: 2.0.110
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.110"
-  checksum: 373f33d9bfde535f989602b18b9b18e8acf120833a0db5523f78ee8c4c853cf3dae694d8104afb0be17d0571091f06d937845e047cf4c23bda9eada949ffa501
+  version: 2.0.112
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.112"
+  checksum: 92fa595740a0cd6f56b65523008ff31edf785dc2fb101d12bb32472c4f28e3d3565f4bd8349d7ebae1f93ab94e025d8886ff308753d683e268197bf85bd94f48
   languageName: node
   linkType: hard
 
@@ -145,90 +145,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-darwin-arm64@npm:1.3.46"
+"@swc/core-darwin-arm64@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-darwin-arm64@npm:1.3.49"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-darwin-x64@npm:1.3.46"
+"@swc/core-darwin-x64@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-darwin-x64@npm:1.3.49"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.46"
+"@swc/core-linux-arm-gnueabihf@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.49"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.46"
+"@swc/core-linux-arm64-gnu@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.49"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-linux-arm64-musl@npm:1.3.46"
+"@swc/core-linux-arm64-musl@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-linux-arm64-musl@npm:1.3.49"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-linux-x64-gnu@npm:1.3.46"
+"@swc/core-linux-x64-gnu@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-linux-x64-gnu@npm:1.3.49"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-linux-x64-musl@npm:1.3.46"
+"@swc/core-linux-x64-musl@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-linux-x64-musl@npm:1.3.49"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.46"
+"@swc/core-win32-arm64-msvc@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.49"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.46"
+"@swc/core-win32-ia32-msvc@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.49"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.3.46":
-  version: 1.3.46
-  resolution: "@swc/core-win32-x64-msvc@npm:1.3.46"
+"@swc/core-win32-x64-msvc@npm:1.3.49":
+  version: 1.3.49
+  resolution: "@swc/core-win32-x64-msvc@npm:1.3.49"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "@swc/core@npm:*":
-  version: 1.3.46
-  resolution: "@swc/core@npm:1.3.46"
+  version: 1.3.49
+  resolution: "@swc/core@npm:1.3.49"
   dependencies:
-    "@swc/core-darwin-arm64": 1.3.46
-    "@swc/core-darwin-x64": 1.3.46
-    "@swc/core-linux-arm-gnueabihf": 1.3.46
-    "@swc/core-linux-arm64-gnu": 1.3.46
-    "@swc/core-linux-arm64-musl": 1.3.46
-    "@swc/core-linux-x64-gnu": 1.3.46
-    "@swc/core-linux-x64-musl": 1.3.46
-    "@swc/core-win32-arm64-msvc": 1.3.46
-    "@swc/core-win32-ia32-msvc": 1.3.46
-    "@swc/core-win32-x64-msvc": 1.3.46
+    "@swc/core-darwin-arm64": 1.3.49
+    "@swc/core-darwin-x64": 1.3.49
+    "@swc/core-linux-arm-gnueabihf": 1.3.49
+    "@swc/core-linux-arm64-gnu": 1.3.49
+    "@swc/core-linux-arm64-musl": 1.3.49
+    "@swc/core-linux-x64-gnu": 1.3.49
+    "@swc/core-linux-x64-musl": 1.3.49
+    "@swc/core-win32-arm64-msvc": 1.3.49
+    "@swc/core-win32-ia32-msvc": 1.3.49
+    "@swc/core-win32-x64-msvc": 1.3.49
   peerDependencies:
     "@swc/helpers": ^0.5.0
   dependenciesMeta:
@@ -252,7 +252,10 @@ __metadata:
       optional: true
     "@swc/core-win32-x64-msvc":
       optional: true
-  checksum: bd1773bf9e7940b540d4f7a36bf109594562fcca338ec60d5a95bd1bc9fc2e3e632351c3c9cf803f6947bf7ebc200e5260d034c49db8d28689d96d031e2836b1
+  peerDependenciesMeta:
+    "@swc/helpers":
+      optional: true
+  checksum: 7234f38451dd765ea94cb44236f261603014e27bff6ecd133d9ba8a2d39314e9949e43bb77ffccd21f5e6c942ad7acf444de8972744ca24ac8f3ccecaea849a1
   languageName: node
   linkType: hard
 
@@ -604,9 +607,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.1.306
-  resolution: "constructs@npm:10.1.306"
-  checksum: 2e26b713632672e90e546ae85a9a233398a17e84739b0a330456bc0d066acf4ad8d15d53f6f0680b257d03195635452b1dc7fd1c7b3a1e24dff6635504611139
+  version: 10.1.307
+  resolution: "constructs@npm:10.1.307"
+  checksum: 1ca4427925f895763d932ef64c22fde6b5b483e72e43ac55993b91d1af933f90702664388c56e2a3d78394cbd4f644565a1926e7a784c26e9c5af78ca957da9c
   languageName: node
   linkType: hard
 
@@ -1295,13 +1298,13 @@ __metadata:
   linkType: hard
 
 "semver@npm:^7.3.5, semver@npm:^7.3.8":
-  version: 7.3.8
-  resolution: "semver@npm:7.3.8"
+  version: 7.4.0
+  resolution: "semver@npm:7.4.0"
   dependencies:
     lru-cache: ^6.0.0
   bin:
     semver: bin/semver.js
-  checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
+  checksum: debf7f4d6fa36fdc5ef82bd7fc3603b6412165c8a3963a30be0c45a587be1a49e7681e80aa109da1875765741af24edc6e021cee1ba16ae96f649d06c5df296d
   languageName: node
   linkType: hard
 
