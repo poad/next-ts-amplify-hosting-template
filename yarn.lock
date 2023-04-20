@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.77":
-  version: 2.0.120
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.120"
-  checksum: 6728db4cf4580b0a89ae38d75547eaede233bf62f2a0ebff7e0b80f5f8c32bc4e91367effd12a828cd3a662bf0143032980c3029eb6e7048743515076c04b5fc
+  version: 2.0.122
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.122"
+  checksum: 3e7997f9b7071a42d76a0660be3c0f30fbfda6a92b015de721643f8f4f811bd03a290bd07a2d4e940cec307652c3d1740e62a37cb54cef115fbf1ad6d9ef0a35
   languageName: node
   linkType: hard
 
@@ -548,8 +548,8 @@ __metadata:
   linkType: hard
 
 "aws-cdk-lib@npm:*":
-  version: 2.75.1
-  resolution: "aws-cdk-lib@npm:2.75.1"
+  version: 2.76.0
+  resolution: "aws-cdk-lib@npm:2.76.0"
   dependencies:
     "@aws-cdk/asset-awscli-v1": ^2.2.97
     "@aws-cdk/asset-kubectl-v20": ^2.1.1
@@ -566,13 +566,13 @@ __metadata:
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: ac62fb972294713b3ac5b41a8ae67102de2981524a9e15cea5e05ed9f8da46d98594d5c107870420994b3820959c46f76c020be2a25f9213238e3dce3e90d85f
+  checksum: 63c9dd34e7d9c75fa2b14bd5de2e601c720cd5a1961bef26aec2635397b919b32403f1a0453b74762c51784a2ecc0128c0ed8f798759bfeccf790e04e1158aa9
   languageName: node
   linkType: hard
 
 "aws-cdk@npm:*":
-  version: 2.75.1
-  resolution: "aws-cdk@npm:2.75.1"
+  version: 2.76.0
+  resolution: "aws-cdk@npm:2.76.0"
   dependencies:
     fsevents: 2.3.2
   dependenciesMeta:
@@ -580,7 +580,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: 7c085dd23d9c485539fbf1e054f43278cfd813fb0a61863153c9b9c53434fe28b9ed2513c11499eebe215c8e0937f1b345a481f7fba5ffae0afdfb789f219c95
+  checksum: 75461e1711bd4c60af05c99769bf3bcdab253a4ce7a71bc1ac50d451ec3bb9b3cbed3a60d433c4c5ea4301ea3d899cbe6c3cfe3867168a050eed1ff034225f41
   languageName: node
   linkType: hard
 
