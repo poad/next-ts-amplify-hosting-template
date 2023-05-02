@@ -59,6 +59,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@isaacs/cliui@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "@isaacs/cliui@npm:8.0.2"
+  dependencies:
+    string-width: ^5.1.2
+    string-width-cjs: "npm:string-width@^4.2.0"
+    strip-ansi: ^7.0.1
+    strip-ansi-cjs: "npm:strip-ansi@^6.0.1"
+    wrap-ansi: ^8.1.0
+    wrap-ansi-cjs: "npm:wrap-ansi@^7.0.0"
+  checksum: 4a473b9b32a7d4d3cfb7a614226e555091ff0c5a29a1734c28c72a182c2f6699b26fc6b5c2131dfd841e86b185aea714c72201d7c98c2fba5f17709333a67aeb
+  languageName: node
+  linkType: hard
+
 "@jridgewell/resolve-uri@npm:^3.0.3":
   version: 3.1.1
   resolution: "@jridgewell/resolve-uri@npm:3.1.1"
@@ -713,20 +727,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cliui@github:isaacs/cliui#isaacs/esm-cjs-consistency":
-  version: 8.0.1
-  resolution: "cliui@https://github.com/isaacs/cliui.git#commit=9f97090165675fdda63a79c29bc36bb1033506b0"
-  dependencies:
-    string-width: ^5.1.2
-    string-width-cjs: "npm:string-width@^4.2.0"
-    strip-ansi: ^7.0.1
-    strip-ansi-cjs: "npm:strip-ansi@^6.0.1"
-    wrap-ansi: ^8.1.0
-    wrap-ansi-cjs: "npm:wrap-ansi@^7.0.0"
-  checksum: 6c07a98973be6602591687a9e302f555eaf7fff608c1e8a78995ab54acbc9d56f1e3b88eeee62c284be19ff1d20159ef9b28488c36287b0704656e77c2977551
-  languageName: node
-  linkType: hard
-
 "color-convert@npm:^2.0.1":
   version: 2.0.1
   resolution: "color-convert@npm:2.0.1"
@@ -1131,15 +1131,15 @@ __metadata:
   linkType: hard
 
 "jackspeak@npm:^2.0.3":
-  version: 2.1.4
-  resolution: "jackspeak@npm:2.1.4"
+  version: 2.1.5
+  resolution: "jackspeak@npm:2.1.5"
   dependencies:
+    "@isaacs/cliui": ^8.0.2
     "@pkgjs/parseargs": ^0.11.0
-    cliui: "github:isaacs/cliui#isaacs/esm-cjs-consistency"
   dependenciesMeta:
     "@pkgjs/parseargs":
       optional: true
-  checksum: 6071e1a6a5382dff4f34a3647a8ad72accd611939d89760217d75e82200d0d8be669062d1d490748e9eb351754fc73e46505f0edfabfd3988802ef771d1b66f2
+  checksum: 10045b9b3fcc3ae230666c4807126176c4ce5457cfe1220e2b1de61b1f41470b3ce8b08feec11d47f205ddf15450e8ad90c8a83bfb6f0709d6882e86e9a13f30
   languageName: node
   linkType: hard
 
