@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.165":
-  version: 2.2.175
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.175"
-  checksum: f0ac513646a92753295637a6af4eb021089cb6a11c0d833f6603808aed60091e1aae74d6c176ce9d1e36760a1260ac05d890fef0280de72ab0118e45202af430
+  version: 2.2.176
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.176"
+  checksum: af6ae5444bbeb01f50a282d4fc5b0f74076feb580abe9eb832890b2dabe9334ae2c128145360d30d1eb6a73d623c99cfc8f9e1c6ada48b0f318b3adc025eba26
   languageName: node
   linkType: hard
 
@@ -395,9 +395,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 20.1.5
-  resolution: "@types/node@npm:20.1.5"
-  checksum: 0d073ed7b9cc51e2354dcf3a8ccca84d08c7d513fa8fac9462cabc164435b30f2ad296e9f2f911e6ce72da837b704f1075379be84a93bb24f76d328a2d9e8561
+  version: 20.1.7
+  resolution: "@types/node@npm:20.1.7"
+  checksum: b722794290d22db1741e739c256876ca774b76ea2d647d9ec9d52c49b1b01049cc6f6332499a01ac81d641e8d078b33e4c5c59e409db80390ac6b8d7ef0c08a7
   languageName: node
   linkType: hard
 
