@@ -6,9 +6,9 @@ __metadata:
   cacheKey: 8
 
 "@aws-cdk/asset-awscli-v1@npm:^2.2.165":
-  version: 2.2.176
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.176"
-  checksum: af6ae5444bbeb01f50a282d4fc5b0f74076feb580abe9eb832890b2dabe9334ae2c128145360d30d1eb6a73d623c99cfc8f9e1c6ada48b0f318b3adc025eba26
+  version: 2.2.177
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.177"
+  checksum: 22654888ae1dc88fabd63ad42303df51b4aee3d2aff2389f61f787575680780ef09c3cce8f9b5931ac9a7ccbca8b4223ee4a909385c58039f721d54919e5a52b
   languageName: node
   linkType: hard
 
@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.139":
-  version: 2.0.147
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.147"
-  checksum: c6047a2f5415af6cd22fa38074f56b31ac1d757625301143e918156a6894f57d838f73b8988e065111cd7aaa67d69e6e75094fd46f4bd30bfc8982f5c031ab63
+  version: 2.0.148
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.148"
+  checksum: 156909778bb00e59fb4e558dd2f89bd6cb6cff121b33e86784743676406906a6c6929a0e8b1f38d2d32579065643909b1f51baee0260b50cee99be1c35856cf1
   languageName: node
   linkType: hard
 
@@ -194,44 +194,44 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rometools/cli-darwin-arm64@npm:12.1.0":
-  version: 12.1.0
-  resolution: "@rometools/cli-darwin-arm64@npm:12.1.0"
+"@rometools/cli-darwin-arm64@npm:12.1.1":
+  version: 12.1.1
+  resolution: "@rometools/cli-darwin-arm64@npm:12.1.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rometools/cli-darwin-x64@npm:12.1.0":
-  version: 12.1.0
-  resolution: "@rometools/cli-darwin-x64@npm:12.1.0"
+"@rometools/cli-darwin-x64@npm:12.1.1":
+  version: 12.1.1
+  resolution: "@rometools/cli-darwin-x64@npm:12.1.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@rometools/cli-linux-arm64@npm:12.1.0":
-  version: 12.1.0
-  resolution: "@rometools/cli-linux-arm64@npm:12.1.0"
+"@rometools/cli-linux-arm64@npm:12.1.1":
+  version: 12.1.1
+  resolution: "@rometools/cli-linux-arm64@npm:12.1.1"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rometools/cli-linux-x64@npm:12.1.0":
-  version: 12.1.0
-  resolution: "@rometools/cli-linux-x64@npm:12.1.0"
+"@rometools/cli-linux-x64@npm:12.1.1":
+  version: 12.1.1
+  resolution: "@rometools/cli-linux-x64@npm:12.1.1"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@rometools/cli-win32-arm64@npm:12.1.0":
-  version: 12.1.0
-  resolution: "@rometools/cli-win32-arm64@npm:12.1.0"
+"@rometools/cli-win32-arm64@npm:12.1.1":
+  version: 12.1.1
+  resolution: "@rometools/cli-win32-arm64@npm:12.1.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rometools/cli-win32-x64@npm:12.1.0":
-  version: 12.1.0
-  resolution: "@rometools/cli-win32-x64@npm:12.1.0"
+"@rometools/cli-win32-x64@npm:12.1.1":
+  version: 12.1.1
+  resolution: "@rometools/cli-win32-x64@npm:12.1.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -658,9 +658,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001406":
-  version: 1.0.30001487
-  resolution: "caniuse-lite@npm:1.0.30001487"
-  checksum: b5a9e72ec165765fb3e07913cc389685ce8a30ac48967f99baec773a4353d2037fb534241e87b3c95d40a5081079be2263710b784883183bb2998b73f7202233
+  version: 1.0.30001488
+  resolution: "caniuse-lite@npm:1.0.30001488"
+  checksum: ef0caf2914f9fca700b75d22921f500241f4e988ded9985e62737136031787052185d8136a65a3a6d6d12b559cf75ab99f5488931f8bd060f1b7810a2c1ee1d1
   languageName: node
   linkType: hard
 
@@ -753,9 +753,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.2.25
-  resolution: "constructs@npm:10.2.25"
-  checksum: 07509a3cd0af68088dd79bb9fa552eb591808ff29f1399ea6fb708e9ea0e105283c0615acd01bbd7eafbfd03eb2e8b966e3125c6f839c59b5b7a52b86ff31591
+  version: 10.2.26
+  resolution: "constructs@npm:10.2.26"
+  checksum: a80185207408cbd9910cfbfcdc843be8e1bc7fe03d9edbf2dae78e7313a710abe5481d5c8652cf67802bb30044127e32541cb011377aff6b7734fa381705e1ff
   languageName: node
   linkType: hard
 
@@ -940,18 +940,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.0.0":
-  version: 10.2.4
-  resolution: "glob@npm:10.2.4"
+"glob@npm:^10.2.5":
+  version: 10.2.5
+  resolution: "glob@npm:10.2.5"
   dependencies:
     foreground-child: ^3.1.0
     jackspeak: ^2.0.3
     minimatch: ^9.0.0
-    minipass: ^5.0.0 || ^6.0.0
+    minipass: ^5.0.0 || ^6.0.2
     path-scurry: ^1.7.0
   bin:
     glob: dist/cjs/src/bin.js
-  checksum: 29845faaa1a8bd2d1f2f26e0c4e5040898c7b4ccfb42e0a558319f6229d124dbc7ccf0ff214402505c5b62c1a39d9d2a1de9c582a74ad415591b96fa53cef466
+  checksum: 54d2b629c467953317c175903a049819577bcce679d437ff1ad43bf654091d3564e796351d705463b26a0194234acdea7f4de64993b0544ea86275c000498026
   languageName: node
   linkType: hard
 
@@ -1328,10 +1328,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minipass@npm:^5.0.0 || ^6.0.0":
-  version: 6.0.1
-  resolution: "minipass@npm:6.0.1"
-  checksum: 1df70bb5653251ad7bb0c979e07c18bbc64af1a92472a1d598f4311646da0c192d6ad92850cdfb9f0cd3ada8a9da369dd361c9f2e38a9f64b6a368ae2ac27fac
+"minipass@npm:^5.0.0 || ^6.0.2":
+  version: 6.0.2
+  resolution: "minipass@npm:6.0.2"
+  checksum: d140b91f4ab2e5ce5a9b6c468c0e82223504acc89114c1a120d4495188b81fedf8cade72a9f4793642b4e66672f990f1e0d902dd858485216a07cd3c8a62fac9
   languageName: node
   linkType: hard
 
@@ -1537,12 +1537,12 @@ __metadata:
   linkType: hard
 
 "path-scurry@npm:^1.7.0":
-  version: 1.9.1
-  resolution: "path-scurry@npm:1.9.1"
+  version: 1.9.2
+  resolution: "path-scurry@npm:1.9.2"
   dependencies:
     lru-cache: ^9.1.1
-    minipass: ^5.0.0 || ^6.0.0
-  checksum: 28caa788f17cc48e1a16b552bc08ba4ec57345bd18df7b9d58589bd83271e5bf932929467353f53ff66eb3bf056eb28d8f9b379525ee37e3f603169257542694
+    minipass: ^5.0.0 || ^6.0.2
+  checksum: 92888dfb68e285043c6d3291c8e971d5d2bc2f5082f4d7b5392896f34be47024c9d0a8b688dd7ae6d125acc424699195474927cb4f00049a9b1ec7c4256fa8e0
   languageName: node
   linkType: hard
 
@@ -1642,13 +1642,13 @@ __metadata:
   linkType: hard
 
 "rimraf@npm:*":
-  version: 5.0.0
-  resolution: "rimraf@npm:5.0.0"
+  version: 5.0.1
+  resolution: "rimraf@npm:5.0.1"
   dependencies:
-    glob: ^10.0.0
+    glob: ^10.2.5
   bin:
     rimraf: dist/cjs/src/bin.js
-  checksum: 60c5a7f152014d4f6bbf23f48e6badd145960a9be1115b719a07ba688c760b1bb8270abd6650bbd184ae2011843d8e9c775409652c89ff97550418aa5d581b27
+  checksum: bafce85391349a2d960847980bf9b5caa2a8887f481af630f1ea27e08288217293cec72d75e9a2ba35495c212789f66a7f3d23366ba6197026ab71c535126857
   languageName: node
   linkType: hard
 
@@ -1664,15 +1664,15 @@ __metadata:
   linkType: hard
 
 "rome@npm:*":
-  version: 12.1.0
-  resolution: "rome@npm:12.1.0"
+  version: 12.1.1
+  resolution: "rome@npm:12.1.1"
   dependencies:
-    "@rometools/cli-darwin-arm64": 12.1.0
-    "@rometools/cli-darwin-x64": 12.1.0
-    "@rometools/cli-linux-arm64": 12.1.0
-    "@rometools/cli-linux-x64": 12.1.0
-    "@rometools/cli-win32-arm64": 12.1.0
-    "@rometools/cli-win32-x64": 12.1.0
+    "@rometools/cli-darwin-arm64": 12.1.1
+    "@rometools/cli-darwin-x64": 12.1.1
+    "@rometools/cli-linux-arm64": 12.1.1
+    "@rometools/cli-linux-x64": 12.1.1
+    "@rometools/cli-win32-arm64": 12.1.1
+    "@rometools/cli-win32-x64": 12.1.1
   dependenciesMeta:
     "@rometools/cli-darwin-arm64":
       optional: true
@@ -1688,7 +1688,7 @@ __metadata:
       optional: true
   bin:
     rome: bin/rome
-  checksum: c21df579dad347b4979caa12bcacabf6bb0ca259da9d2526071fddb7598ff234536549cd9e1cc04541cc55076d9995868ff0abe359c9b660f04449389fcb0d83
+  checksum: 2b139c94d950728ee5bc159468bec8f790102e0707219e95080ce33602ed2f598f7820d7950a2842dbdfeb62c10724d6dc43a261b1fb766c1f9819103a668a33
   languageName: node
   linkType: hard
 
@@ -1921,8 +1921,8 @@ __metadata:
   linkType: hard
 
 "tar@npm:^6.1.11, tar@npm:^6.1.2":
-  version: 6.1.14
-  resolution: "tar@npm:6.1.14"
+  version: 6.1.15
+  resolution: "tar@npm:6.1.15"
   dependencies:
     chownr: ^2.0.0
     fs-minipass: ^2.0.0
@@ -1930,7 +1930,7 @@ __metadata:
     minizlib: ^2.1.1
     mkdirp: ^1.0.3
     yallist: ^4.0.0
-  checksum: a1be0815a9bdc97dfca7c6c2d71d1b836f8ba9314684e2c412832f0f59cc226d4c13da303d6bc30925e82f634cc793f40da79ae72f3e96fb87c23d0f4efd5207
+  checksum: f23832fceeba7578bf31907aac744ae21e74a66f4a17a9e94507acf460e48f6db598c7023882db33bab75b80e027c21f276d405e4a0322d58f51c7088d428268
   languageName: node
   linkType: hard
 
