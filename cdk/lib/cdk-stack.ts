@@ -9,7 +9,6 @@ interface CdkStackProps extends cdk.StackProps {
 
 export class CdkStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: CdkStackProps) {
-    // rome-ignore lint/correctness/noInvalidConstructorSuper: <explanation>
     super(scope, id, props);
 
     const { appName } = props;
