@@ -5,10 +5,10 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@aws-cdk/asset-awscli-v1@npm:^2.2.165":
-  version: 2.2.178
-  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.178"
-  checksum: 61214db17785fea1b4b7e6eca0e1d8fc7fee801527fa78d2784f4bf2bf9239c169c3c4bbea0e2e5b8464904b214aca97e37399721a7d07ee90e466ebb7525010
+"@aws-cdk/asset-awscli-v1@npm:^2.2.177":
+  version: 2.2.181
+  resolution: "@aws-cdk/asset-awscli-v1@npm:2.2.181"
+  checksum: 5d6b3325ed94b1452d54297ca6e8f14e3e88e3b27bb01dc11a945b2460beda5cde2a3c07371e44758a4527254d80efaa1bb4a7da5dd73a72b28cf4740740826c
   languageName: node
   linkType: hard
 
@@ -19,10 +19,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.139":
-  version: 2.0.149
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.149"
-  checksum: 57494835d3e4a3ce404ebde0d9f6c7bfa8a6a6fc7748a2ed29f81feade492216fb8d63a8b7e14cd151c8275898a0908140816b9609f07aff02f6e9e43e353365
+"@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.148":
+  version: 2.0.152
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.152"
+  checksum: ff46e351269e27fb7cb56e22943f2e58c4215839d1f96c4d7fc46044602de525bc7c2bef31a2b178e503c68b8201a27b299e2769d7e09402a94ab4bedbadc3ec
   languageName: node
   linkType: hard
 
@@ -97,72 +97,72 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/env@npm:13.4.2"
-  checksum: 103f0e836c16f69067410d780a411668c640b93cb380ba5a13a5d014f5e83bc9b4745c8840e319aebffc31b3cddeb9804e96ccca1411a11de0de6056c3d99f0a
+"@next/env@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/env@npm:13.4.3"
+  checksum: e45f7b7a469e59a8b9b5e8b9969643907b8f6bf54037eee42eb10cb21d6d9455d10f92721eb65cc102e281fdebcb5b93e6e534dc0bacb65b368f85e9d3de49a8
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/swc-darwin-arm64@npm:13.4.2"
+"@next/swc-darwin-arm64@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/swc-darwin-arm64@npm:13.4.3"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/swc-darwin-x64@npm:13.4.2"
+"@next/swc-darwin-x64@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/swc-darwin-x64@npm:13.4.3"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/swc-linux-arm64-gnu@npm:13.4.2"
+"@next/swc-linux-arm64-gnu@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/swc-linux-arm64-gnu@npm:13.4.3"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/swc-linux-arm64-musl@npm:13.4.2"
+"@next/swc-linux-arm64-musl@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/swc-linux-arm64-musl@npm:13.4.3"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/swc-linux-x64-gnu@npm:13.4.2"
+"@next/swc-linux-x64-gnu@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/swc-linux-x64-gnu@npm:13.4.3"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/swc-linux-x64-musl@npm:13.4.2"
+"@next/swc-linux-x64-musl@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/swc-linux-x64-musl@npm:13.4.3"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/swc-win32-arm64-msvc@npm:13.4.2"
+"@next/swc-win32-arm64-msvc@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/swc-win32-arm64-msvc@npm:13.4.3"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/swc-win32-ia32-msvc@npm:13.4.2"
+"@next/swc-win32-ia32-msvc@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/swc-win32-ia32-msvc@npm:13.4.3"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:13.4.2":
-  version: 13.4.2
-  resolution: "@next/swc-win32-x64-msvc@npm:13.4.2"
+"@next/swc-win32-x64-msvc@npm:13.4.3":
+  version: 13.4.3
+  resolution: "@next/swc-win32-x64-msvc@npm:13.4.3"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -236,90 +236,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-arm64@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-darwin-arm64@npm:1.3.58"
+"@swc/core-darwin-arm64@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-darwin-arm64@npm:1.3.59"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-darwin-x64@npm:1.3.58"
+"@swc/core-darwin-x64@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-darwin-x64@npm:1.3.59"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm-gnueabihf@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.58"
+"@swc/core-linux-arm-gnueabihf@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.59"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.58"
+"@swc/core-linux-arm64-gnu@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.59"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-musl@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-linux-arm64-musl@npm:1.3.58"
+"@swc/core-linux-arm64-musl@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-linux-arm64-musl@npm:1.3.59"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-linux-x64-gnu@npm:1.3.58"
+"@swc/core-linux-x64-gnu@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-linux-x64-gnu@npm:1.3.59"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-musl@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-linux-x64-musl@npm:1.3.58"
+"@swc/core-linux-x64-musl@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-linux-x64-musl@npm:1.3.59"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.58"
+"@swc/core-win32-arm64-msvc@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.59"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.58"
+"@swc/core-win32-ia32-msvc@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.59"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/core-win32-x64-msvc@npm:1.3.58":
-  version: 1.3.58
-  resolution: "@swc/core-win32-x64-msvc@npm:1.3.58"
+"@swc/core-win32-x64-msvc@npm:1.3.59":
+  version: 1.3.59
+  resolution: "@swc/core-win32-x64-msvc@npm:1.3.59"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
 "@swc/core@npm:*":
-  version: 1.3.58
-  resolution: "@swc/core@npm:1.3.58"
+  version: 1.3.59
+  resolution: "@swc/core@npm:1.3.59"
   dependencies:
-    "@swc/core-darwin-arm64": 1.3.58
-    "@swc/core-darwin-x64": 1.3.58
-    "@swc/core-linux-arm-gnueabihf": 1.3.58
-    "@swc/core-linux-arm64-gnu": 1.3.58
-    "@swc/core-linux-arm64-musl": 1.3.58
-    "@swc/core-linux-x64-gnu": 1.3.58
-    "@swc/core-linux-x64-musl": 1.3.58
-    "@swc/core-win32-arm64-msvc": 1.3.58
-    "@swc/core-win32-ia32-msvc": 1.3.58
-    "@swc/core-win32-x64-msvc": 1.3.58
+    "@swc/core-darwin-arm64": 1.3.59
+    "@swc/core-darwin-x64": 1.3.59
+    "@swc/core-linux-arm-gnueabihf": 1.3.59
+    "@swc/core-linux-arm64-gnu": 1.3.59
+    "@swc/core-linux-arm64-musl": 1.3.59
+    "@swc/core-linux-x64-gnu": 1.3.59
+    "@swc/core-linux-x64-musl": 1.3.59
+    "@swc/core-win32-arm64-msvc": 1.3.59
+    "@swc/core-win32-ia32-msvc": 1.3.59
+    "@swc/core-win32-x64-msvc": 1.3.59
   peerDependencies:
     "@swc/helpers": ^0.5.0
   dependenciesMeta:
@@ -346,7 +346,7 @@ __metadata:
   peerDependenciesMeta:
     "@swc/helpers":
       optional: true
-  checksum: 34e5a1046aab51e55b35b966e54de8f1bcdef2535c297d76a9b0e38cba126599c24b5062c9c6ce9d4c6b5745c91e8a2eda596fe39ab27093459e8aa2934cf387
+  checksum: 0283f39cf49cd12a6dc7062ef9ea4fa93e1a4f622ce46903a09605219f4f47ed5ad03925c6146d09ffe6ee02a89bb14e3c82eb86b4c60ecce4985ea6e078ffcf
   languageName: node
   linkType: hard
 
@@ -395,9 +395,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 20.2.1
-  resolution: "@types/node@npm:20.2.1"
-  checksum: ed774afa6e9b4ad7868ed0182a8ca40ad0dd54815a70d3051b23fa850f3bca6bea4d0cb55e1fc769666786ac2cc4c1b37aeade313cb4c4634133f18ebcded496
+  version: 20.2.3
+  resolution: "@types/node@npm:20.2.3"
+  checksum: 576065e8fc1fa45798c8f59a6bf809169582d04abc2e25fab1a048ffc734975b9992ae31be0d960cf705a21fb37112f7fcde11aa322beddf7491e73d5a5a988c
   languageName: node
   linkType: hard
 
@@ -553,12 +553,12 @@ __metadata:
   linkType: hard
 
 "aws-cdk-lib@npm:*":
-  version: 2.79.1
-  resolution: "aws-cdk-lib@npm:2.79.1"
+  version: 2.80.0
+  resolution: "aws-cdk-lib@npm:2.80.0"
   dependencies:
-    "@aws-cdk/asset-awscli-v1": ^2.2.165
+    "@aws-cdk/asset-awscli-v1": ^2.2.177
     "@aws-cdk/asset-kubectl-v20": ^2.1.1
-    "@aws-cdk/asset-node-proxy-agent-v5": ^2.0.139
+    "@aws-cdk/asset-node-proxy-agent-v5": ^2.0.148
     "@balena/dockerignore": ^1.0.2
     case: 1.6.3
     fs-extra: ^11.1.1
@@ -566,18 +566,18 @@ __metadata:
     jsonschema: ^1.4.1
     minimatch: ^3.1.2
     punycode: ^2.3.0
-    semver: ^7.5.0
+    semver: ^7.5.1
     table: ^6.8.1
     yaml: 1.10.2
   peerDependencies:
     constructs: ^10.0.0
-  checksum: 76c6fc9b95e3b460073c119d9db99dd48526333be7505b75d5b9831a44afdf2c23d2acb3d026ad3eafdd8967637f246dded305e60e4e844e1c7a63f74382a299
+  checksum: 80a0c4883ef12cf2bcb826ff2f02a0be181d0ced654ad608d9c471f982053e7350b4778a4853568a0378d7403aae7a73082b89f6dfa27bd83f9f0fa816b68d5a
   languageName: node
   linkType: hard
 
 "aws-cdk@npm:*":
-  version: 2.79.1
-  resolution: "aws-cdk@npm:2.79.1"
+  version: 2.80.0
+  resolution: "aws-cdk@npm:2.80.0"
   dependencies:
     fsevents: 2.3.2
   dependenciesMeta:
@@ -585,7 +585,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: d35964d5ffabd9b10fbb8cc82bbd9fc2b18dd5157a9309d4560c73f25a81db61f5f2871964d72b4e2d16ec04904f4dc426915ac3cda0131ca1516bf436d214d3
+  checksum: a057b4f6fbe788392eee6ecbfbc540854311ac8c35106cdeaecd44bb4ecbd4667405c8ed3b2cf0b35416f700a6c5706337d37fb0e0124ccc2b4c2b57a6edcc13
   languageName: node
   linkType: hard
 
@@ -753,9 +753,9 @@ __metadata:
   linkType: hard
 
 "constructs@npm:*":
-  version: 10.2.27
-  resolution: "constructs@npm:10.2.27"
-  checksum: 40c0509f979b26cab769a42a861836cbbb7caefe2c3861def63f6a59bb68482b1c8833990dbfae346f650bcf1b04b31396196d3ceb6965f1240181d65aab7c69
+  version: 10.2.30
+  resolution: "constructs@npm:10.2.30"
+  checksum: 96c8007cafe78baccfa4e3cd601ddf8956fd9a918119cfa2bd1613e651e6ffbe78d7f336cd13d881a44768ecdb91af82cd77adc133d0ff350432ef4a68909721
   languageName: node
   linkType: hard
 
@@ -941,17 +941,17 @@ __metadata:
   linkType: hard
 
 "glob@npm:^10.2.5":
-  version: 10.2.5
-  resolution: "glob@npm:10.2.5"
+  version: 10.2.6
+  resolution: "glob@npm:10.2.6"
   dependencies:
     foreground-child: ^3.1.0
     jackspeak: ^2.0.3
-    minimatch: ^9.0.0
+    minimatch: ^9.0.1
     minipass: ^5.0.0 || ^6.0.2
     path-scurry: ^1.7.0
   bin:
     glob: dist/cjs/src/bin.js
-  checksum: 54d2b629c467953317c175903a049819577bcce679d437ff1ad43bf654091d3564e796351d705463b26a0194234acdea7f4de64993b0544ea86275c000498026
+  checksum: 94c5964bfa9df95207a69a3bd9b07b99ea7b5ba1f36dd73a8914378cee9436a205b9b5bdff58872abc238684ea7f4b4936e932155b8885250818bcc8d5321ddf
   languageName: node
   linkType: hard
 
@@ -1116,15 +1116,15 @@ __metadata:
   linkType: hard
 
 "jackspeak@npm:^2.0.3":
-  version: 2.2.0
-  resolution: "jackspeak@npm:2.2.0"
+  version: 2.2.1
+  resolution: "jackspeak@npm:2.2.1"
   dependencies:
     "@isaacs/cliui": ^8.0.2
     "@pkgjs/parseargs": ^0.11.0
   dependenciesMeta:
     "@pkgjs/parseargs":
       optional: true
-  checksum: d8cd5be4f0e89cef04add5b0b068162a086bdb1ca68113ed729e99489b7865ca3edcc6430d6fd20c430e15382929ef5f3c7ec36e6aa7c17be23cac116f92dcff
+  checksum: e29291c0d0f280a063fa18fbd1e891ab8c2d7519fd34052c0ebde38538a15c603140d60c2c7f432375ff7ee4c5f1c10daa8b2ae19a97c3d4affe308c8360c1df
   languageName: node
   linkType: hard
 
@@ -1252,12 +1252,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "minimatch@npm:9.0.0"
+"minimatch@npm:^9.0.1":
+  version: 9.0.1
+  resolution: "minimatch@npm:9.0.1"
   dependencies:
     brace-expansion: ^2.0.1
-  checksum: 7bd57899edd1d1b0560f50b5b2d1ea4ad2a366c5a2c8e0a943372cf2f200b64c256bae45a87a80915adbce27fa36526264296ace0da57b600481fe5ea3e372e5
+  checksum: 97f5f5284bb57dc65b9415dec7f17a0f6531a33572193991c60ff18450dcfad5c2dad24ffeaf60b5261dccd63aae58cc3306e2209d57e7f88c51295a532d8ec3
   languageName: node
   linkType: hard
 
@@ -1401,19 +1401,19 @@ __metadata:
   linkType: soft
 
 "next@npm:^13":
-  version: 13.4.2
-  resolution: "next@npm:13.4.2"
+  version: 13.4.3
+  resolution: "next@npm:13.4.3"
   dependencies:
-    "@next/env": 13.4.2
-    "@next/swc-darwin-arm64": 13.4.2
-    "@next/swc-darwin-x64": 13.4.2
-    "@next/swc-linux-arm64-gnu": 13.4.2
-    "@next/swc-linux-arm64-musl": 13.4.2
-    "@next/swc-linux-x64-gnu": 13.4.2
-    "@next/swc-linux-x64-musl": 13.4.2
-    "@next/swc-win32-arm64-msvc": 13.4.2
-    "@next/swc-win32-ia32-msvc": 13.4.2
-    "@next/swc-win32-x64-msvc": 13.4.2
+    "@next/env": 13.4.3
+    "@next/swc-darwin-arm64": 13.4.3
+    "@next/swc-darwin-x64": 13.4.3
+    "@next/swc-linux-arm64-gnu": 13.4.3
+    "@next/swc-linux-arm64-musl": 13.4.3
+    "@next/swc-linux-x64-gnu": 13.4.3
+    "@next/swc-linux-x64-musl": 13.4.3
+    "@next/swc-win32-arm64-msvc": 13.4.3
+    "@next/swc-win32-ia32-msvc": 13.4.3
+    "@next/swc-win32-x64-msvc": 13.4.3
     "@swc/helpers": 0.5.1
     busboy: 1.6.0
     caniuse-lite: ^1.0.30001406
@@ -1457,7 +1457,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 73b9da0d72b54720791ec3e3a3c79922172de5df01d5157507bd095033c33cd611f35da3310d859b3a75456977a4a9a4ef311074517b172dddc92dc769e03e49
+  checksum: 65f13be0600b8b64de7ee51b5cf06b062f2f9f484bddf79002107750d6e92ab01542cb7de62f03a5be6eafbb060ee68fa688714ef02956c7e603e67bdd28cd84
   languageName: node
   linkType: hard
 
@@ -1715,7 +1715,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.5.0":
+"semver@npm:^7.3.5, semver@npm:^7.5.1":
   version: 7.5.1
   resolution: "semver@npm:7.5.1"
   dependencies:
