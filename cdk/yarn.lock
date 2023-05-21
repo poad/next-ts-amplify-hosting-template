@@ -20,9 +20,9 @@ __metadata:
   linkType: hard
 
 "@aws-cdk/asset-node-proxy-agent-v5@npm:^2.0.139":
-  version: 2.0.149
-  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.149"
-  checksum: 57494835d3e4a3ce404ebde0d9f6c7bfa8a6a6fc7748a2ed29f81feade492216fb8d63a8b7e14cd151c8275898a0908140816b9609f07aff02f6e9e43e353365
+  version: 2.0.152
+  resolution: "@aws-cdk/asset-node-proxy-agent-v5@npm:2.0.152"
+  checksum: ff46e351269e27fb7cb56e22943f2e58c4215839d1f96c4d7fc46044602de525bc7c2bef31a2b178e503c68b8201a27b299e2769d7e09402a94ab4bedbadc3ec
   languageName: node
   linkType: hard
 
