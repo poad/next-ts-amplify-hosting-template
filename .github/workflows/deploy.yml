@@ -1,9 +1,6 @@
 name: Deploy
 
 on:
-  pull_request:
-    branches:
-      - main
   push:
     branches:
     - main
@@ -29,34 +26,36 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - uses: pnpm/action-setup@v2
+      name: Install pnpm
+      id: pnpm-install
+      with:
+        version: 8.5.1
+        run_install: false
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3.6.0
       with:
         node-version: ${{ matrix.node-version }}
         check-latest: true
-        cache: yarn
+        cache: pnpm
 
-    - name: configure aws credentials
-      uses: aws-actions/configure-aws-credentials@v2
-      with:
-        role-to-assume: ${{ secrets.OIDC_IAM_ROLE }}
-        role-session-name: GitHubActions
-        aws-region: us-west-2
+    # - name: Get pnpm store directory
+    #   id: pnpm-cache
+    #   shell: bash
+    #   run: |
+    #     echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
-    - name: Get yarn cache directory path
-      id: yarn-cache-dir-path
-      run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
-
-    - uses: actions/cache@v3
-      id: yarn-cache
-      with:
-        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-yarn-
+    # - uses: actions/cache@v3
+    #   name: Setup pnpm cache
+    #   with:
+    #     path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+    #     key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+    #     restore-keys: |
+    #       ${{ runner.os }}-pnpm-store-
 
     - name: Build
-      run: yarn install && yarn build && yarn export
+      run: pnpm install && pnpm build && pnpm export
 
     - name: Install cdk
       run: |
@@ -64,7 +63,7 @@ jobs:
 
     - name: Deploy
       working-directory: cdk
-      run: yarn install && cdk deploy -c stack_name=${{ env.STACK_NAME }} -c app_name=${{ env.APP_NAME }}
+      run: pnpm install && cdk deploy -c stack_name=${{ env.STACK_NAME }} -c app_name=${{ env.APP_NAME }}
 
   configure:
     runs-on: ubuntu-latest
