@@ -1,3 +1,6 @@
+@import "@aws-amplify/ui-react/styles.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

@@ -18,8 +18,10 @@
     "all": "yarn lint && yarn build"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "*",
     "@types/node": "*",
     "@types/react": "*",
+    "aws-amplify": "*",
     "next": "^13",
     "react": "*",
     "react-dom": "*",
