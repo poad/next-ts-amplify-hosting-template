@@ -18,6 +18,7 @@
     "@swc/helpers": "^0.5.1",
     "@types/node": "^20.2.3",
     "aws-cdk": "^2.80.0",
+    "esbuild": "^0.17.19",
     "regenerator-runtime": "0.13.11",
     "rome": "^12.1.2",
     "ts-node": "^10.9.1",
