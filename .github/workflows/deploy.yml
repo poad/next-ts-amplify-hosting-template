@@ -31,9 +31,7 @@ jobs:
       id: pnpm-install
       with:
         version: 8.5.1
-        run_install: |
-          - recursive: true
-            args: [--frozen-lockfile]
+        run_install: false
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3.6.0
@@ -41,7 +39,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         check-latest: true
         cache: pnpm
-
+  
     - name: Get pnpm store directory
       id: pnpm-cache
       run: |
@@ -56,7 +54,7 @@ jobs:
           ${{ runner.os }}-pnpm-store-
 
     - name: Build
-      run: pnpm build
+      run: pnpm install -r && pnpm build
 
     - name: Install cdk
       run: |
