@@ -49,7 +49,7 @@ jobs:
           ${{ runner.os }}-pnpm-store-
 
     - name: Build
-      run: pnpm install -r && pnpm build
+      run: pnpm install -r --frozen-lockfile && pnpm build
 
     - name: Build (CDK)
       working-directory: cdk
