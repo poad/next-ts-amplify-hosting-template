@@ -14,7 +14,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-rm -rf node_modules && pnpm install && pnpm dedupe && pnpm lint-fix && pnpm all
+rm -rf node_modules && pnpm install -r && pnpm dedupe && pnpm up -r && pnpm lint-fix && pnpm all
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
@@ -30,7 +30,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-rm -rf node_modules && pnpm install && pnpm dedupe && pnpm lint-fix && pnpm build
+rm -rf node_modules && pnpm install && pnpm dedupe && pnpm up && pnpm lint-fix && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
