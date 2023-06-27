@@ -86,13 +86,13 @@ importers:
     dependencies:
       '@aws-cdk/aws-amplify-alpha':
         specifier: 2.83.1-alpha.0
-        version: 2.83.1-alpha.0(aws-cdk-lib@2.85.0)(constructs@10.2.60)
+        version: 2.83.1-alpha.0(aws-cdk-lib@2.85.0)(constructs@10.2.61)
       aws-cdk-lib:
         specifier: ^2.85.0
-        version: 2.85.0(constructs@10.2.60)
+        version: 2.85.0(constructs@10.2.61)
       constructs:
-        specifier: ^10.2.60
-        version: 10.2.60
+        specifier: ^10.2.61
+        version: 10.2.61
       source-map-support:
         specifier: ^0.5.21
         version: 0.5.21
@@ -445,15 +445,15 @@ packages:
     resolution: {integrity: sha512-bsyLQD/vqXQcc9RDmlM1XqiFNO/yewgVFXmkMcQkndJbmE/jgYkzewwYGrBlfL725hGLQipXq19+jwWwdsXQqg==}
     dev: false
 
-  /@aws-cdk/aws-amplify-alpha@2.83.1-alpha.0(aws-cdk-lib@2.85.0)(constructs@10.2.60):
+  /@aws-cdk/aws-amplify-alpha@2.83.1-alpha.0(aws-cdk-lib@2.85.0)(constructs@10.2.61):
     resolution: {integrity: sha512-VOHyGb0lCdAf0ZSRuv7++Xi+AWdj9HbohKgazclCKXXmnx2vE4FmPEdmNRQpZZCJ/+aFtOoTAnMNY/PKLXU05w==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       aws-cdk-lib: 2.83.1
       constructs: ^10.0.0
     dependencies:
-      aws-cdk-lib: 2.85.0(constructs@10.2.60)
-      constructs: 10.2.60
+      aws-cdk-lib: 2.85.0(constructs@10.2.61)
+      constructs: 10.2.61
     dev: false
 
   /@aws-crypto/crc32@1.2.2:
@@ -8258,7 +8258,7 @@ packages:
       - react-native
     dev: false
 
-  /aws-cdk-lib@2.85.0(constructs@10.2.60):
+  /aws-cdk-lib@2.85.0(constructs@10.2.61):
     resolution: {integrity: sha512-u+ypK8XEMRH3tGRMSmcbPYxLet7xBdGIztUkMcPtlNJGhS/vxqh12yYkem3g3zzmHwdX8OPLSnlZ2sIuiIqp/g==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -8267,7 +8267,17 @@ packages:
       '@aws-cdk/asset-awscli-v1': 2.2.199
       '@aws-cdk/asset-kubectl-v20': 2.1.2
       '@aws-cdk/asset-node-proxy-agent-v5': 2.0.165
-      constructs: 10.2.60
+      '@balena/dockerignore': 1.0.2
+      case: 1.6.3
+      constructs: 10.2.61
+      fs-extra: 11.1.1
+      ignore: 5.2.4
+      jsonschema: 1.4.1
+      minimatch: 3.1.2
+      punycode: 2.3.0
+      semver: 7.5.3
+      table: 6.8.1
+      yaml: 1.10.2
     dev: false
     bundledDependencies:
       - '@balena/dockerignore'
@@ -9104,8 +9114,8 @@ packages:
     resolution: {integrity: sha512-xFxOwqIzR/e1k1gLiWEophSCMqXcwVHIH7akf7b/vxcUeGunlj3hvZaaqxwHsTgn+IndtkQJgSztIDWeumWJDQ==}
     dev: true
 
-  /constructs@10.2.60:
-    resolution: {integrity: sha512-rO9EHXhUZpA1Gz5wk5ewCVaol6anSilDzS7uv4Fmgx+tKTcxchAl10z8ObjZMjcQYNw+5FBVIzSagSKJanbHdQ==}
+  /constructs@10.2.61:
+    resolution: {integrity: sha512-8l099E1XPLN6VgUitXP6wPHLl25vc8RgxePhbCY/iRF9RGErSy6JHnI3AJU8XJ3KMaUZqhq+q9q3o+KoKM1eVw==}
     engines: {node: '>= 16.14.0'}
     dev: false
 
@@ -11362,6 +11372,10 @@ packages:
       universalify: 2.0.0
     optionalDependencies:
       graceful-fs: 4.2.11
+
+  /jsonschema@1.4.1:
+    resolution: {integrity: sha512-S6cATIPVv1z0IlxdN+zUk5EPjkGCdnhN4wVSBlvoUO1tOLJootbo9CquNJmbIh4yikWHiUedhRYrNPn1arpEmQ==}
+    dev: false
 
   /kind-of@6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
