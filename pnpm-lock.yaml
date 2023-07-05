@@ -86,13 +86,13 @@ importers:
     dependencies:
       '@aws-cdk/aws-amplify-alpha':
         specifier: 2.83.1-alpha.0
-        version: 2.83.1-alpha.0(aws-cdk-lib@2.86.0)(constructs@10.2.68)
+        version: 2.83.1-alpha.0(aws-cdk-lib@2.86.0)(constructs@10.2.69)
       aws-cdk-lib:
         specifier: ^2.86.0
-        version: 2.86.0(constructs@10.2.68)
+        version: 2.86.0(constructs@10.2.69)
       constructs:
-        specifier: ^10.2.68
-        version: 10.2.68
+        specifier: ^10.2.69
+        version: 10.2.69
       source-map-support:
         specifier: ^0.5.21
         version: 0.5.21
@@ -445,15 +445,15 @@ packages:
     resolution: {integrity: sha512-bsyLQD/vqXQcc9RDmlM1XqiFNO/yewgVFXmkMcQkndJbmE/jgYkzewwYGrBlfL725hGLQipXq19+jwWwdsXQqg==}
     dev: false
 
-  /@aws-cdk/aws-amplify-alpha@2.83.1-alpha.0(aws-cdk-lib@2.86.0)(constructs@10.2.68):
+  /@aws-cdk/aws-amplify-alpha@2.83.1-alpha.0(aws-cdk-lib@2.86.0)(constructs@10.2.69):
     resolution: {integrity: sha512-VOHyGb0lCdAf0ZSRuv7++Xi+AWdj9HbohKgazclCKXXmnx2vE4FmPEdmNRQpZZCJ/+aFtOoTAnMNY/PKLXU05w==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       aws-cdk-lib: 2.83.1
       constructs: ^10.0.0
     dependencies:
-      aws-cdk-lib: 2.86.0(constructs@10.2.68)
-      constructs: 10.2.68
+      aws-cdk-lib: 2.86.0(constructs@10.2.69)
+      constructs: 10.2.69
     dev: false
 
   /@aws-crypto/crc32@1.2.2:
@@ -8267,7 +8267,7 @@ packages:
       - react-native
     dev: false
 
-  /aws-cdk-lib@2.86.0(constructs@10.2.68):
+  /aws-cdk-lib@2.86.0(constructs@10.2.69):
     resolution: {integrity: sha512-76yZ2MawAGXLD3ox4FjhUIPmAMXteGKkeo3tPMthemusDCCkD2X6DBssXBHjB7r9GnrOMMf8JH5BGq2lOZ539g==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -8278,7 +8278,7 @@ packages:
       '@aws-cdk/asset-node-proxy-agent-v5': 2.0.165
       '@balena/dockerignore': 1.0.2
       case: 1.6.3
-      constructs: 10.2.68
+      constructs: 10.2.69
       fs-extra: 11.1.1
       ignore: 5.2.4
       jsonschema: 1.4.1
@@ -9123,8 +9123,8 @@ packages:
     resolution: {integrity: sha512-xFxOwqIzR/e1k1gLiWEophSCMqXcwVHIH7akf7b/vxcUeGunlj3hvZaaqxwHsTgn+IndtkQJgSztIDWeumWJDQ==}
     dev: true
 
-  /constructs@10.2.68:
-    resolution: {integrity: sha512-0XXn0L67Df8Rbjjn+hoLsrf68f/TS99W/I5JDe4ri49zaSXVxBIVPqhx2tELVum7wN3G6mISYDppnZC/k5uUYg==}
+  /constructs@10.2.69:
+    resolution: {integrity: sha512-0AiM/uQe5Uk6JVe/62oolmSN2MjbFQkOlYrM3fFGZLKuT+g7xlAI10EebFhyCcZwI2JAcWuWCmmCAyCothxjuw==}
     engines: {node: '>= 16.14.0'}
     dev: false
 
