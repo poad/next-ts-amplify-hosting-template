@@ -27,7 +27,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.1.6",
-    "web-vitals": "^3.3.2"
+    "web-vitals": "^3.4.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.25",
