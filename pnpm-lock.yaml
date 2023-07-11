@@ -8862,7 +8862,7 @@ packages:
     dependencies:
       caniuse-lite: 1.0.30001512
       electron-to-chromium: 1.4.454
-      node-releases: 2.0.12
+      node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
 
   /bser@2.1.1:
@@ -12499,8 +12499,8 @@ packages:
       webpack: 5.88.1(esbuild@0.17.19)
     dev: true
 
-  /node-releases@2.0.12:
-    resolution: {integrity: sha512-QzsYKWhXTWx8h1kIvqfnC++o0pEmpRQA/aenALsL2F4pqNVr7YzcdMlDij5WBnwftRbJCNJL/O7zdKaxKPHqgQ==}
+  /node-releases@2.0.13:
+    resolution: {integrity: sha512-uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==}
 
   /node-stream-zip@1.15.0:
     resolution: {integrity: sha512-LN4fydt9TqhZhThkZIVQnF9cwjU3qmUH9h78Mx/K7d3VvfRqqwthLwJEUOEL0QPZ0XQmNN7be5Ggit5+4dq3Bw==}
