@@ -5158,8 +5158,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /@jest/create-cache-key-function@29.5.0:
-    resolution: {integrity: sha512-LIDZyZgnZss7uikvBKBB/USWwG+GO8+GnwRWT+YkCGDGsqLQlhm9BC3z6+7+eMs1kUlvXQIWEzBR8Q2Pnvx6lg==}
+  /@jest/create-cache-key-function@29.6.1:
+    resolution: {integrity: sha512-d77/1BbNLbJDBV6tH7ctYpau+3tnU5YMhg36uGabW4VDrl1Arp6E0jDRioHFoFqIbm+BXMVbyQc9MpfKo6OIQQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.1
@@ -13439,7 +13439,7 @@ packages:
     peerDependencies:
       react: 18.2.0
     dependencies:
-      '@jest/create-cache-key-function': 29.5.0
+      '@jest/create-cache-key-function': 29.6.1
       '@react-native-community/cli': 11.3.5(@babel/core@7.22.5)
       '@react-native-community/cli-platform-android': 11.3.5
       '@react-native-community/cli-platform-ios': 11.3.5
