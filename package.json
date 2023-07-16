@@ -23,7 +23,7 @@
   "dependencies": {
     "@aws-amplify/ui-react": "^5.0.4",
     "aws-amplify": "^5.3.3",
-    "next": "^13.4.8",
+    "next": "^13.4.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.1.6",
