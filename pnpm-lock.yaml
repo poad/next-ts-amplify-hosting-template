@@ -44,7 +44,7 @@ importers:
         version: 7.0.25(react-dom@18.2.0)(react@18.2.0)
       '@storybook/nextjs':
         specifier: ^7.0.27
-        version: 7.0.27(@babel/core@7.22.5)(esbuild@0.17.19)(next@13.4.10)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(webpack@5.88.1)
+        version: 7.0.27(@babel/core@7.22.5)(esbuild@0.17.19)(next@13.4.10)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(webpack@5.88.2)
       '@storybook/react':
         specifier: ^7.1.0
         version: 7.1.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
@@ -5178,7 +5178,7 @@ packages:
     dev: true
     optional: true
 
-  /@pmmmwh/react-refresh-webpack-plugin@0.5.10(react-refresh@0.11.0)(webpack@5.88.1):
+  /@pmmmwh/react-refresh-webpack-plugin@0.5.10(react-refresh@0.11.0)(webpack@5.88.2):
     resolution: {integrity: sha512-j0Ya0hCFZPd4x40qLzbhGsh9TMtdb+CJQiso+WxLOPNasohq9cc5SNUcwsZaRH6++Xh91Xkm/xHCkuIiIu0LUA==}
     engines: {node: '>= 10.13'}
     peerDependencies:
@@ -5214,7 +5214,7 @@ packages:
       react-refresh: 0.11.0
       schema-utils: 3.3.0
       source-map: 0.7.4
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /@radix-ui/number@1.0.0:
@@ -6414,28 +6414,28 @@ packages:
       '@storybook/theming': 7.0.27(react-dom@18.2.0)(react@18.2.0)
       '@types/node': 16.18.38
       '@types/semver': 7.5.0
-      babel-loader: 9.1.3(@babel/core@7.22.5)(webpack@5.88.1)
+      babel-loader: 9.1.3(@babel/core@7.22.5)(webpack@5.88.2)
       babel-plugin-named-exports-order: 0.0.2
       browser-assert: 1.2.1
       case-sensitive-paths-webpack-plugin: 2.4.0
-      css-loader: 6.8.1(webpack@5.88.1)
+      css-loader: 6.8.1(webpack@5.88.2)
       express: 4.18.2
-      fork-ts-checker-webpack-plugin: 7.3.0(typescript@5.1.6)(webpack@5.88.1)
+      fork-ts-checker-webpack-plugin: 7.3.0(typescript@5.1.6)(webpack@5.88.2)
       fs-extra: 11.1.1
-      html-webpack-plugin: 5.5.3(webpack@5.88.1)
+      html-webpack-plugin: 5.5.3(webpack@5.88.2)
       path-browserify: 1.0.1
       process: 0.11.10
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       semver: 7.5.3
-      style-loader: 3.3.3(webpack@5.88.1)
-      terser-webpack-plugin: 5.3.9(esbuild@0.17.19)(webpack@5.88.1)
+      style-loader: 3.3.3(webpack@5.88.2)
+      terser-webpack-plugin: 5.3.9(esbuild@0.17.19)(webpack@5.88.2)
       ts-dedent: 2.2.0
       typescript: 5.1.6
       util: 0.12.5
       util-deprecate: 1.0.2
-      webpack: 5.88.1(esbuild@0.17.19)
-      webpack-dev-middleware: 5.3.3(webpack@5.88.1)
+      webpack: 5.88.2(esbuild@0.17.19)
+      webpack-dev-middleware: 5.3.3(webpack@5.88.2)
       webpack-hot-middleware: 2.25.4
       webpack-virtual-modules: 0.4.6
     transitivePeerDependencies:
@@ -7023,7 +7023,7 @@ packages:
     resolution: {integrity: sha512-TXJJd5RAKakWx4BtpwvSNdgTDkKM6RkXU8GK34S/LhidQ5Pjz3wcnqb0TxEkfhK/ztbP8nKHqXFwLfa2CYkvQw==}
     dev: true
 
-  /@storybook/nextjs@7.0.27(@babel/core@7.22.5)(esbuild@0.17.19)(next@13.4.10)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(webpack@5.88.1):
+  /@storybook/nextjs@7.0.27(@babel/core@7.22.5)(esbuild@0.17.19)(next@13.4.10)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(webpack@5.88.2):
     resolution: {integrity: sha512-WsoIPU+ThCIYxjf5p4vyJ/iVIcua0nOR4GI1AD3r+KclgVdBS+Byx69n86GFMXVAeJqn7dfvdIE2Na9FlAPY/A==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -7067,28 +7067,28 @@ packages:
       '@storybook/preview-api': 7.0.27
       '@storybook/react': 7.0.27(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
       '@types/node': 16.18.38
-      css-loader: 6.8.1(webpack@5.88.1)
+      css-loader: 6.8.1(webpack@5.88.2)
       find-up: 5.0.0
       fs-extra: 11.1.1
       image-size: 1.0.2
       loader-utils: 3.2.1
       next: 13.4.10(@babel/core@7.22.5)(react-dom@18.2.0)(react@18.2.0)
-      node-polyfill-webpack-plugin: 2.0.1(webpack@5.88.1)
+      node-polyfill-webpack-plugin: 2.0.1(webpack@5.88.2)
       pnp-webpack-plugin: 1.7.0(typescript@5.1.6)
       postcss: 8.4.26
-      postcss-loader: 7.3.3(postcss@8.4.26)(webpack@5.88.1)
+      postcss-loader: 7.3.3(postcss@8.4.26)(webpack@5.88.2)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       resolve-url-loader: 5.0.0
-      sass-loader: 12.6.0(webpack@5.88.1)
+      sass-loader: 12.6.0(webpack@5.88.2)
       semver: 7.5.3
-      style-loader: 3.3.3(webpack@5.88.1)
+      style-loader: 3.3.3(webpack@5.88.2)
       styled-jsx: 5.1.1(@babel/core@7.22.5)(react@18.2.0)
       ts-dedent: 2.2.0
       tsconfig-paths: 4.2.0
       tsconfig-paths-webpack-plugin: 3.5.2
       typescript: 5.1.6
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     transitivePeerDependencies:
       - '@swc/core'
       - '@types/webpack'
@@ -7153,12 +7153,12 @@ packages:
       '@babel/core': 7.22.5
       '@babel/preset-flow': 7.22.5(@babel/core@7.22.5)
       '@babel/preset-react': 7.22.5(@babel/core@7.22.5)
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.10(react-refresh@0.11.0)(webpack@5.88.1)
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.10(react-refresh@0.11.0)(webpack@5.88.2)
       '@storybook/core-webpack': 7.0.27
       '@storybook/docs-tools': 7.0.27
       '@storybook/node-logger': 7.0.27
       '@storybook/react': 7.0.27(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
-      '@storybook/react-docgen-typescript-plugin': 1.0.6--canary.9.0c3f3b7.0(typescript@5.1.6)(webpack@5.88.1)
+      '@storybook/react-docgen-typescript-plugin': 1.0.6--canary.9.0c3f3b7.0(typescript@5.1.6)(webpack@5.88.2)
       '@types/node': 16.18.38
       '@types/semver': 7.5.0
       babel-plugin-add-react-displayname: 0.0.5
@@ -7169,7 +7169,7 @@ packages:
       react-refresh: 0.11.0
       semver: 7.5.3
       typescript: 5.1.6
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     transitivePeerDependencies:
       - '@swc/core'
       - '@types/webpack'
@@ -7249,7 +7249,7 @@ packages:
     resolution: {integrity: sha512-yHUlMX6wUlIlOYIzfUtqkuXOgRPJJLqGfeniMxLWjNpcePgZ6iSx0fF91ubKfPF1uUbA5vGSVX6KI+AF/RLM1Q==}
     dev: true
 
-  /@storybook/react-docgen-typescript-plugin@1.0.6--canary.9.0c3f3b7.0(typescript@5.1.6)(webpack@5.88.1):
+  /@storybook/react-docgen-typescript-plugin@1.0.6--canary.9.0c3f3b7.0(typescript@5.1.6)(webpack@5.88.2):
     resolution: {integrity: sha512-KUqXC3oa9JuQ0kZJLBhVdS4lOneKTOopnNBK4tUAgoxWQ3u/IjzdueZjFr7gyBrXMoU6duutk3RQR9u8ZpYJ4Q==}
     peerDependencies:
       typescript: '>= 4.x'
@@ -7263,7 +7263,7 @@ packages:
       react-docgen-typescript: 2.2.2(typescript@5.1.6)
       tslib: 2.6.0
       typescript: 5.1.6
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8557,7 +8557,7 @@ packages:
     dependencies:
       '@babel/core': 7.22.5
 
-  /babel-loader@9.1.3(@babel/core@7.22.5)(webpack@5.88.1):
+  /babel-loader@9.1.3(@babel/core@7.22.5)(webpack@5.88.2):
     resolution: {integrity: sha512-xG3ST4DglodGf8qSwv0MdeWLhrDsw/32QMdTO5T1ZIp9gQur0HkCyFs7Awskr10JKXFXwpAhiCuYX5oGXnRGbw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -8567,7 +8567,7 @@ packages:
       '@babel/core': 7.22.5
       find-cache-dir: 4.0.0
       schema-utils: 4.2.0
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /babel-plugin-add-react-displayname@0.0.5:
@@ -9497,7 +9497,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /css-loader@6.8.1(webpack@5.88.1):
+  /css-loader@6.8.1(webpack@5.88.2):
     resolution: {integrity: sha512-xDAXtEVGlD0gJ07iclwWVkLoZOpEvAWaSyf6W18S2pOC//K8+qUDIx8IIT3D+HjnmkJPQeesOPv5aiUaJsCM2g==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -9511,7 +9511,7 @@ packages:
       postcss-modules-values: 4.0.0(postcss@8.4.26)
       postcss-value-parser: 4.2.0
       semver: 7.5.3
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /css-select@4.3.0:
@@ -10423,7 +10423,7 @@ packages:
       signal-exit: 4.0.2
     dev: true
 
-  /fork-ts-checker-webpack-plugin@7.3.0(typescript@5.1.6)(webpack@5.88.1):
+  /fork-ts-checker-webpack-plugin@7.3.0(typescript@5.1.6)(webpack@5.88.2):
     resolution: {integrity: sha512-IN+XTzusCjR5VgntYFgxbxVx3WraPRnKehBFrf00cMSrtUuW9MsG9dhL6MWpY6MkjC3wVwoujfCDgZZCQwbswA==}
     engines: {node: '>=12.13.0', yarn: '>=1.0.0'}
     peerDependencies:
@@ -10447,7 +10447,7 @@ packages:
       semver: 7.5.3
       tapable: 2.2.1
       typescript: 5.1.6
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /form-data@3.0.1:
@@ -10855,7 +10855,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /html-webpack-plugin@5.5.3(webpack@5.88.1):
+  /html-webpack-plugin@5.5.3(webpack@5.88.2):
     resolution: {integrity: sha512-6YrDKTuqaP/TquFH7h4srYWsZx+x6k6+FbsTm0ziCwGHDP78Unr1r9F/H4+sGmMbX08GQcJ+K64x55b+7VM/jg==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
@@ -10866,7 +10866,7 @@ packages:
       lodash: 4.17.21
       pretty-error: 4.0.0
       tapable: 2.2.1
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /htmlparser2@6.1.0:
@@ -12503,7 +12503,7 @@ packages:
   /node-int64@0.4.0:
     resolution: {integrity: sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==}
 
-  /node-polyfill-webpack-plugin@2.0.1(webpack@5.88.1):
+  /node-polyfill-webpack-plugin@2.0.1(webpack@5.88.2):
     resolution: {integrity: sha512-ZUMiCnZkP1LF0Th2caY6J/eKKoA0TefpoVa68m/LQU1I/mE8rGt4fNYGgNuCcK+aG8P8P43nbeJ2RqJMOL/Y1A==}
     engines: {node: '>=12'}
     peerDependencies:
@@ -12534,7 +12534,7 @@ packages:
       url: 0.11.1
       util: 0.12.5
       vm-browserify: 1.1.2
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /node-releases@2.0.13:
@@ -13023,7 +13023,7 @@ packages:
       yaml: 2.3.1
     dev: true
 
-  /postcss-loader@7.3.3(postcss@8.4.26)(webpack@5.88.1):
+  /postcss-loader@7.3.3(postcss@8.4.26)(webpack@5.88.2):
     resolution: {integrity: sha512-YgO/yhtevGO/vJePCQmTxiaEwER94LABZN0ZMT4A0vsak9TpO+RvKRs7EmJ8peIlB9xfXCsS7M8LjqncsUZ5HA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -13034,7 +13034,7 @@ packages:
       jiti: 1.19.1
       postcss: 8.4.26
       semver: 7.5.3
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /postcss-modules-extract-imports@3.0.0(postcss@8.4.26):
@@ -13912,7 +13912,7 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /sass-loader@12.6.0(webpack@5.88.1):
+  /sass-loader@12.6.0(webpack@5.88.2):
     resolution: {integrity: sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -13933,7 +13933,7 @@ packages:
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /scheduler@0.23.0:
@@ -14369,13 +14369,13 @@ packages:
       tinycolor2: 1.6.0
     dev: false
 
-  /style-loader@3.3.3(webpack@5.88.1):
+  /style-loader@3.3.3(webpack@5.88.2):
     resolution: {integrity: sha512-53BiGLXAcll9maCYtZi2RCQZKa8NQQai5C4horqKyRmHj9H7QmcUyucrH+4KW/gBQbXM2AsB0axoEcFZPlfPcw==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
     dependencies:
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /styled-jsx@5.1.1(@babel/core@7.22.5)(react@18.2.0):
@@ -14546,7 +14546,7 @@ packages:
       unique-string: 2.0.0
     dev: true
 
-  /terser-webpack-plugin@5.3.9(esbuild@0.17.19)(webpack@5.88.1):
+  /terser-webpack-plugin@5.3.9(esbuild@0.17.19)(webpack@5.88.2):
     resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -14568,7 +14568,7 @@ packages:
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.19.0
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /terser@5.19.0:
@@ -15181,7 +15181,7 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /webpack-dev-middleware@5.3.3(webpack@5.88.1):
+  /webpack-dev-middleware@5.3.3(webpack@5.88.2):
     resolution: {integrity: sha512-hj5CYrY0bZLB+eTO+x/j67Pkrquiy7kWepMHmUMoPsmcUaeEnQJqFzHJOyxgWlq746/wUuA64p9ta34Kyb01pA==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -15192,7 +15192,7 @@ packages:
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.2.0
-      webpack: 5.88.1(esbuild@0.17.19)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /webpack-hot-middleware@2.25.4:
@@ -15216,8 +15216,8 @@ packages:
     resolution: {integrity: sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==}
     dev: true
 
-  /webpack@5.88.1(esbuild@0.17.19):
-    resolution: {integrity: sha512-FROX3TxQnC/ox4N+3xQoWZzvGXSuscxR32rbzjpXgEzWudJFEJBpdlkkob2ylrv5yzzufD1zph1OoFsLtm6stQ==}
+  /webpack@5.88.2(esbuild@0.17.19):
+    resolution: {integrity: sha512-JmcgNZ1iKj+aiR0OvTYtWQqJwq37Pf683dY9bVORwVbUrDhLhdn/PlO2sHsFHPkj7sHNQF3JwaAkp49V+Sq1tQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -15247,7 +15247,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.9(esbuild@0.17.19)(webpack@5.88.1)
+      terser-webpack-plugin: 5.3.9(esbuild@0.17.19)(webpack@5.88.2)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
