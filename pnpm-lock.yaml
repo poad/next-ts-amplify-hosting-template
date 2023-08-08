@@ -2136,8 +2136,8 @@ packages:
     dependencies:
       '@babel/types': 7.22.10
 
-  /@babel/helper-builder-binary-assignment-operator-visitor@7.22.5:
-    resolution: {integrity: sha512-m1EP3lVOPptR+2DwD125gziZNcmoNSHGmJROKoy87loWUQyJaVXDgpmruWqDARZSmtYQ+Dl25okU8+qhVzuykw==}
+  /@babel/helper-builder-binary-assignment-operator-visitor@7.22.10:
+    resolution: {integrity: sha512-Av0qubwDQxC56DoUReVDeLfMEjYYSN1nZrTUrWkXd7hpU73ymRANkbuDm3yni9npkn+RXy9nNbEJZEzXr7xrfQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.22.10
@@ -2822,7 +2822,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.10
-      '@babel/helper-builder-binary-assignment-operator-visitor': 7.22.5
+      '@babel/helper-builder-binary-assignment-operator-visitor': 7.22.10
       '@babel/helper-plugin-utils': 7.22.5
 
   /@babel/plugin-transform-export-namespace-from@7.22.5(@babel/core@7.22.10):
