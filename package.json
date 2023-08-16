@@ -30,7 +30,7 @@
     "web-vitals": "^3.4.0"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.2.3",
+    "@storybook/addon-essentials": "^7.3.1",
     "@storybook/addon-interactions": "^7.2.3",
     "@storybook/addon-links": "^7.3.0",
     "@storybook/blocks": "^7.2.3",
