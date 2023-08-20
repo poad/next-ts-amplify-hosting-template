@@ -46,8 +46,8 @@ importers:
         specifier: ^7.3.2
         version: 7.3.2(@swc/core@1.3.77)(@types/react-dom@18.2.7)(@types/react@18.2.20)(esbuild@0.17.19)(next@13.4.16)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(webpack@5.88.2)
       '@storybook/react':
-        specifier: ^7.3.1
-        version: 7.3.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
+        specifier: ^7.3.2
+        version: 7.3.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
       '@storybook/testing-library':
         specifier: ^0.2.0
         version: 0.2.0
@@ -6385,13 +6385,6 @@ packages:
       - '@types/react-dom'
     dev: true
 
-  /@storybook/core-client@7.3.1:
-    resolution: {integrity: sha512-UzZ9H7i9w5K2OEtlen9nJsgCOGl1Yf8cTq5EykXRrJCb+4JRzPwMdd83cDZhZNWKgYpx9js6KmyfWwxts0GvJQ==}
-    dependencies:
-      '@storybook/client-logger': 7.3.1
-      '@storybook/preview-api': 7.3.1
-    dev: true
-
   /@storybook/core-client@7.3.2:
     resolution: {integrity: sha512-K2jCnjZiUUskFjKUj7m1FTCphIwBv0KPOE5JCd0UR7un1P1G1kdXMctADE6fHosrW73xRrad9CBSyyetUVQQOA==}
     dependencies:
@@ -6904,46 +6897,6 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-    dev: true
-
-  /@storybook/react@7.3.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-EIVxvI3qayJyQW83ExOt98/zveUeHv47AHUyUOanVOlwDpOHAv19VnijQq50Kk+XM1ooxz3rLJsNMlMPPeTiDw==}
-    engines: {node: '>=16.0.0'}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@storybook/client-logger': 7.3.1
-      '@storybook/core-client': 7.3.1
-      '@storybook/docs-tools': 7.3.1
-      '@storybook/global': 5.0.0
-      '@storybook/preview-api': 7.3.1
-      '@storybook/react-dom-shim': 7.3.1(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/types': 7.3.1
-      '@types/escodegen': 0.0.6
-      '@types/estree': 0.0.51
-      '@types/node': 16.18.40
-      acorn: 7.4.1
-      acorn-jsx: 5.3.2(acorn@7.4.1)
-      acorn-walk: 7.2.0
-      escodegen: 2.1.0
-      html-tags: 3.3.1
-      lodash: 4.17.21
-      prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      react-element-to-jsx-string: 15.0.0(react-dom@18.2.0)(react@18.2.0)
-      ts-dedent: 2.2.0
-      type-fest: 2.19.0
-      typescript: 5.1.6
-      util-deprecate: 1.0.2
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
     dev: true
 
   /@storybook/react@7.3.2(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
