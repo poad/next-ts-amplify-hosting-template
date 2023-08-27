@@ -4170,14 +4170,14 @@ packages:
     resolution: {integrity: sha512-u/u3cCztYCfgBiGHsamqP5x+XvucftOGPbf5RJQxfpeC1y4AL8pCjKvPDA3oCmdhZYPgk5AE0VOD/flweR69WA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jest/fake-timers': 29.6.3
+      '@jest/fake-timers': 29.6.4
       '@jest/types': 29.6.3
       '@types/node': 20.5.5
       jest-mock: 29.6.3
     dev: false
 
-  /@jest/fake-timers@29.6.3:
-    resolution: {integrity: sha512-pa1wmqvbj6eX0nMvOM2VDAWvJOI5A/Mk3l8O7n7EsAh71sMZblaKO9iT4GjIj0LwwK3CP/Jp1ypEV0x3m89RvA==}
+  /@jest/fake-timers@29.6.4:
+    resolution: {integrity: sha512-6UkCwzoBK60edXIIWb0/KWkuj7R7Qq91vVInOe3De6DSpaEiqjKcJw4F7XUet24Wupahj9J6PlR09JqJ5ySDHw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
@@ -10576,7 +10576,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/environment': 29.6.3
-      '@jest/fake-timers': 29.6.3
+      '@jest/fake-timers': 29.6.4
       '@jest/types': 29.6.3
       '@types/node': 20.5.5
       jest-mock: 29.6.3
