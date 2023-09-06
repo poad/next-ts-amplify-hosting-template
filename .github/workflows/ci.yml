@@ -27,7 +27,6 @@ jobs:
       with:
         run_install: |
           - recursive: true
-            args: [--frozen-lockfile]
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3.8.1
