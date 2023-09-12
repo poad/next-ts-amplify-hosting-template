@@ -19,7 +19,7 @@ jobs:
   deploy:
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [20.x]
 
     runs-on: ubuntu-latest
 
