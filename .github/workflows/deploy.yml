@@ -33,7 +33,7 @@ jobs:
         version: latest
         run_install: |
           - recursive: true
-            args: [--frozen-lockfile]
+            args: [--no-frozen-lockfile]
           - args: [--global, aws-cdk]
 
     - name: Use Node.js ${{ matrix.node-version }}
