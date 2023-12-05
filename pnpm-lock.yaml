@@ -86,10 +86,10 @@ importers:
     dependencies:
       '@aws-cdk/aws-amplify-alpha':
         specifier: 2.95.0-alpha.0
-        version: 2.95.0-alpha.0(aws-cdk-lib@2.113.0)(constructs@10.3.0)
+        version: 2.95.0-alpha.0(aws-cdk-lib@2.114.0)(constructs@10.3.0)
       aws-cdk-lib:
-        specifier: ^2.113.0
-        version: 2.113.0(constructs@10.3.0)
+        specifier: ^2.114.0
+        version: 2.114.0(constructs@10.3.0)
       constructs:
         specifier: ^10.3.0
         version: 10.3.0
@@ -104,8 +104,8 @@ importers:
         specifier: ^20.10.3
         version: 20.10.3
       aws-cdk:
-        specifier: ^2.113.0
-        version: 2.113.0
+        specifier: ^2.114.0
+        version: 2.114.0
       esbuild:
         specifier: ^0.19.8
         version: 0.19.8
@@ -437,14 +437,14 @@ packages:
     resolution: {integrity: sha512-DDt4SLdLOwWCjGtltH4VCST7hpOI5DzieuhGZsBpZ+AgJdSI2GCjklCXm0GCTwJG/SolkL5dtQXyUKgg9luBDg==}
     dev: false
 
-  /@aws-cdk/aws-amplify-alpha@2.95.0-alpha.0(aws-cdk-lib@2.113.0)(constructs@10.3.0):
+  /@aws-cdk/aws-amplify-alpha@2.95.0-alpha.0(aws-cdk-lib@2.114.0)(constructs@10.3.0):
     resolution: {integrity: sha512-KTpbyoUwy5cH777OvWL1PTWr6AnX0sp2aSfx60Fe+G+Q2qOBcujXQ9oQzSxMBz8FbJk4yzEYb2w1YbUqop1k0w==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       aws-cdk-lib: 2.95.0
       constructs: ^10.0.0
     dependencies:
-      aws-cdk-lib: 2.113.0(constructs@10.3.0)
+      aws-cdk-lib: 2.114.0(constructs@10.3.0)
       constructs: 10.3.0
     dev: false
 
@@ -3325,7 +3325,7 @@ packages:
       babel-plugin-polyfill-corejs2: 0.4.6(@babel/core@7.23.5)
       babel-plugin-polyfill-corejs3: 0.8.6(@babel/core@7.23.5)
       babel-plugin-polyfill-regenerator: 0.5.3(@babel/core@7.23.5)
-      core-js-compat: 3.33.3
+      core-js-compat: 3.34.0
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -4570,7 +4570,7 @@ packages:
     dependencies:
       ansi-html-community: 0.0.8
       common-path-prefix: 3.0.0
-      core-js-pure: 3.33.3
+      core-js-pure: 3.34.0
       error-stack-parser: 2.1.4
       find-up: 5.0.0
       html-entities: 2.4.0
@@ -7668,8 +7668,8 @@ packages:
       - react-native
     dev: false
 
-  /aws-cdk-lib@2.113.0(constructs@10.3.0):
-    resolution: {integrity: sha512-wZYooUd8nb3ADFtg1dSnsRt1MJmeqEK8cKOnPfCGCfm852YnVdb0qIEclURCQ4ygDJSuqiw9CE+xWVeTQTG6Dw==}
+  /aws-cdk-lib@2.114.0(constructs@10.3.0):
+    resolution: {integrity: sha512-6YRyr7+3PJd8D0elPX8v8psZBIuTjA/EcN6ydFXKjHNADUYgbU2IHpebOOila2XssOuZswOM8UgIfXchPHKs8g==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -7691,8 +7691,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.113.0:
-    resolution: {integrity: sha512-XEM8DSZpcMO1yXqozub8LiXK+3ihEqoWdeFDaIoMq0YmLspo9iAE3FPcKcIfv+ihRIEyvJLekGlxJPkx3+NOGA==}
+  /aws-cdk@2.114.0:
+    resolution: {integrity: sha512-Zm66kXjsCFbeYi4WA93IOEw8+fkU+VamLE2NecX3IU0B3/VFbT54yt4tF3ZmN8vfV2OYHqj66Zbt0gODDZqb1A==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -7769,7 +7769,7 @@ packages:
     dependencies:
       '@babel/core': 7.23.5
       '@babel/helper-define-polyfill-provider': 0.4.3(@babel/core@7.23.5)
-      core-js-compat: 3.33.3
+      core-js-compat: 3.34.0
     transitivePeerDependencies:
       - supports-color
 
@@ -8005,7 +8005,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001566
-      electron-to-chromium: 1.4.603
+      electron-to-chromium: 1.4.604
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
 
@@ -8481,13 +8481,13 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /core-js-compat@3.33.3:
-    resolution: {integrity: sha512-cNzGqFsh3Ot+529GIXacjTJ7kegdt5fPXxCBVS1G0iaZpuo/tBz399ymceLJveQhFFZ8qThHiP3fzuoQjKN2ow==}
+  /core-js-compat@3.34.0:
+    resolution: {integrity: sha512-4ZIyeNbW/Cn1wkMMDy+mvrRUxrwFNjKwbhCfQpDd+eLgYipDqp8oGFGtLmhh18EDPKA0g3VUBYOxQGGwvWLVpA==}
     dependencies:
       browserslist: 4.22.2
 
-  /core-js-pure@3.33.3:
-    resolution: {integrity: sha512-taJ00IDOP+XYQEA2dAe4ESkmHt1fL8wzYDo3mRWQey8uO9UojlBFMneA65kMyxfYP7106c6LzWaq7/haDT6BCQ==}
+  /core-js-pure@3.34.0:
+    resolution: {integrity: sha512-pmhivkYXkymswFfbXsANmBAewXx86UBfmagP+w0wkK06kLsLlTK5oQmsURPivzMkIBQiYq2cjamcZExIwlFQIg==}
     requiresBuild: true
     dev: true
 
@@ -8958,8 +8958,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.603:
-    resolution: {integrity: sha512-Dvo5OGjnl7AZTU632dFJtWj0uJK835eeOVQIuRcmBmsFsTNn3cL05FqOyHAfGQDIoHfLhyJ1Tya3PJ0ceMz54g==}
+  /electron-to-chromium@1.4.604:
+    resolution: {integrity: sha512-JAJ4lyLJYudlgJPYJicimU9R+qZ/3iyeyQS99bfT7PWi7psYWeN84lPswTjpHxQueU34PKxM/IJzQS6poYlovQ==}
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
