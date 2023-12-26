@@ -6192,7 +6192,7 @@ packages:
       util-deprecate: 1.0.2
       webpack: 5.89.0(@swc/core@1.3.101)(esbuild@0.17.19)
       webpack-dev-middleware: 6.1.1(webpack@5.89.0)
-      webpack-hot-middleware: 2.25.4
+      webpack-hot-middleware: 2.26.0
       webpack-virtual-modules: 0.5.0
     transitivePeerDependencies:
       - '@rspack/core'
@@ -6245,7 +6245,7 @@ packages:
       fs-extra: 11.2.0
       get-npm-tarball-url: 2.1.0
       get-port: 5.1.1
-      giget: 1.2.0
+      giget: 1.2.1
       globby: 11.1.0
       jscodeshift: 0.15.1(@babel/preset-env@7.23.6)
       leven: 3.1.0
@@ -9913,8 +9913,8 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /giget@1.2.0:
-    resolution: {integrity: sha512-cIILJ8cBGW34vaH0IuZWeZj/pqy5s3Jkkps0m+g+nWqpsdwLjSoHaeECWjVeJWPUm7uhlS8tJSrrzSBaQXeM1A==}
+  /giget@1.2.1:
+    resolution: {integrity: sha512-4VG22mopWtIeHwogGSy1FViXVo0YT+m6BrqZfz0JJFwbSsePsCdOzdLIIli5BtMp7Xe8f/o2OmBpQX2NBOC24g==}
     hasBin: true
     dependencies:
       citty: 0.1.5
@@ -12297,7 +12297,7 @@ packages:
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.31)
       postcss: 8.4.31
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.14
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -12308,7 +12308,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       postcss: 8.4.31
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.14
     dev: true
 
   /postcss-modules-values@4.0.0(postcss@8.4.31):
@@ -12328,11 +12328,11 @@ packages:
       postcss: ^8.2.14
     dependencies:
       postcss: 8.4.31
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.14
     dev: true
 
-  /postcss-selector-parser@6.0.13:
-    resolution: {integrity: sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ==}
+  /postcss-selector-parser@6.0.14:
+    resolution: {integrity: sha512-65xXYsT40i9GyWzlHQ5ShZoK7JZdySeOozi/tz2EezDo6c04q6+ckYMeoY7idaie1qp2dT5KoYQ2yky6JuoHnA==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -12815,7 +12815,7 @@ packages:
       react-remove-scroll-bar: 2.3.4(@types/react@18.2.45)(react@18.2.0)
       react-style-singleton: 2.2.1(@types/react@18.2.45)(react@18.2.0)
       tslib: 2.6.2
-      use-callback-ref: 1.3.0(@types/react@18.2.45)(react@18.2.0)
+      use-callback-ref: 1.3.1(@types/react@18.2.45)(react@18.2.0)
       use-sidecar: 1.1.2(@types/react@18.2.45)(react@18.2.0)
     dev: false
 
@@ -12834,7 +12834,7 @@ packages:
       react-remove-scroll-bar: 2.3.4(@types/react@18.2.45)(react@18.2.0)
       react-style-singleton: 2.2.1(@types/react@18.2.45)(react@18.2.0)
       tslib: 2.6.2
-      use-callback-ref: 1.3.0(@types/react@18.2.45)(react@18.2.0)
+      use-callback-ref: 1.3.1(@types/react@18.2.45)(react@18.2.0)
       use-sidecar: 1.1.2(@types/react@18.2.45)(react@18.2.0)
     dev: true
 
@@ -13755,7 +13755,7 @@ packages:
       postcss-js: 4.0.1(postcss@8.4.31)
       postcss-load-config: 4.0.2(postcss@8.4.31)
       postcss-nested: 6.0.1(postcss@8.4.31)
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.14
       resolve: 1.22.8
       sucrase: 3.35.0
     transitivePeerDependencies:
@@ -14299,8 +14299,8 @@ packages:
       punycode: 1.4.1
       qs: 6.11.2
 
-  /use-callback-ref@1.3.0(@types/react@18.2.45)(react@18.2.0):
-    resolution: {integrity: sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==}
+  /use-callback-ref@1.3.1(@types/react@18.2.45)(react@18.2.0):
+    resolution: {integrity: sha512-Lg4Vx1XZQauB42Hw3kK7JM6yjVjgFmFC5/Ab797s79aARomD2nEErc4mCgM8EZrARLmmbWpi5DGCadmK50DcAQ==}
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -14470,8 +14470,8 @@ packages:
       webpack: 5.89.0(@swc/core@1.3.101)(esbuild@0.17.19)
     dev: true
 
-  /webpack-hot-middleware@2.25.4:
-    resolution: {integrity: sha512-IRmTspuHM06aZh98OhBJtqLpeWFM8FXJS5UYpKYxCJzyFoyWj1w6VGFfomZU7OPA55dMLrQK0pRT1eQ3PACr4w==}
+  /webpack-hot-middleware@2.26.0:
+    resolution: {integrity: sha512-okzjec5sAEy4t+7rzdT8eRyxsk0FDSmBPN2KwX4Qd+6+oQCfe5Ve07+u7cJvofgB+B4w5/4dO4Pz0jhhHyyPLQ==}
     dependencies:
       ansi-html-community: 0.0.8
       html-entities: 2.4.0
