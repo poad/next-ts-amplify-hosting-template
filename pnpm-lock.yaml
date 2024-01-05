@@ -5736,11 +5736,10 @@ packages:
     engines: {node: '>=18'}
     dev: false
 
-  /@react-native/babel-plugin-codegen@0.74.0(@babel/preset-env@7.23.7):
-    resolution: {integrity: sha512-xAM/eVSb5LBkKue3bDZgt76bdsGGzKeF/iEzUNbDTwRQrB3Q5GoceGNM/zVlF+z1xGAkr3jhL+ZyITZGSoIlgw==}
-    engines: {node: '>=18'}
+  /@react-native/babel-plugin-codegen@0.71.3(@babel/preset-env@7.23.7):
+    resolution: {integrity: sha512-udPH9oWVTO0q7OJL672k7pmBzMA7Ei83hQwk/dxUlveTwjHz1ChHwMXhDJBhG/dNFijl9wcHrD1aXrI8WchZQg==}
     dependencies:
-      '@react-native/codegen': 0.73.2(@babel/preset-env@7.23.7)
+      react-native-codegen: 0.71.6(@babel/preset-env@7.23.7)
     transitivePeerDependencies:
       - '@babel/preset-env'
       - supports-color
@@ -5791,7 +5790,7 @@ packages:
       '@babel/plugin-transform-typescript': 7.23.6(@babel/core@7.23.7)
       '@babel/plugin-transform-unicode-regex': 7.23.3(@babel/core@7.23.7)
       '@babel/template': 7.22.15
-      '@react-native/babel-plugin-codegen': 0.74.0(@babel/preset-env@7.23.7)
+      '@react-native/babel-plugin-codegen': 0.71.3(@babel/preset-env@7.23.7)
       babel-plugin-transform-flow-enums: 0.0.2(@babel/core@7.23.7)
       react-refresh: 0.14.0
     transitivePeerDependencies:
@@ -8138,7 +8137,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001574
-      electron-to-chromium: 1.4.620
+      electron-to-chromium: 1.4.622
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.22.2)
 
@@ -9124,8 +9123,8 @@ packages:
       jake: 10.8.7
     dev: true
 
-  /electron-to-chromium@1.4.620:
-    resolution: {integrity: sha512-a2fcSHOHrqBJsPNXtf6ZCEZpXrFCcbK1FBxfX3txoqWzNgtEDG1f3M59M98iwxhRW4iMKESnSjbJ310/rkrp0g==}
+  /electron-to-chromium@1.4.622:
+    resolution: {integrity: sha512-GZ47DEy0Gm2Z8RVG092CkFvX7SdotG57c4YZOe8W8qD4rOmk3plgeNmiLVRHP/Liqj1wRiY3uUUod9vb9hnxZA==}
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
@@ -9705,6 +9704,11 @@ packages:
 
   /flow-enums-runtime@0.0.6:
     resolution: {integrity: sha512-3PYnM29RFXwvAN6Pc/scUfkI7RwhQ/xqyLUyPNlXUp9S40zI8nup9tUSrTLSVnWGBN38FNiGWbwZOB6uR4OGdw==}
+    dev: false
+
+  /flow-parser@0.185.2:
+    resolution: {integrity: sha512-2hJ5ACYeJCzNtiVULov6pljKOLygy0zddoqSI1fFetM+XRPpRshFdGEijtqlamA1XwyZ+7rhryI6FQFzvtLWUQ==}
+    engines: {node: '>=0.4.0'}
     dev: false
 
   /flow-parser@0.206.0:
@@ -11682,8 +11686,8 @@ packages:
     engines: {node: '>=12.0.0'}
     dev: false
 
-  /node-abi@3.52.0:
-    resolution: {integrity: sha512-JJ98b02z16ILv7859irtXn4oUaFWADtvkzy2c0IAatNVX2Mc9Yoh8z6hZInn3QwvMEYhHuQloYi+TTQy67SIdQ==}
+  /node-abi@3.54.0:
+    resolution: {integrity: sha512-p7eGEiQil0YUV3ItH4/tBb781L5impVmmx2E9FRKF7d18XXzp4PGT2tdYMFY6wQqgxD0IwNZOiSJ0/K0fSi/OA==}
     engines: {node: '>=10'}
     dependencies:
       semver: 7.5.4
@@ -12362,7 +12366,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.52.0
+      node-abi: 3.54.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -12707,6 +12711,18 @@ packages:
 
   /react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
+    dev: false
+
+  /react-native-codegen@0.71.6(@babel/preset-env@7.23.7):
+    resolution: {integrity: sha512-e5pR4VldIhEaFctfSAEgxbng0uG4gjBQxAHes3EKLdosH/Av90pQfSe9IDVdFIngvNPzt8Y14pNjrtqov/yNIg==}
+    dependencies:
+      '@babel/parser': 7.23.6
+      flow-parser: 0.185.2
+      jscodeshift: 0.14.0(@babel/preset-env@7.23.7)
+      nullthrows: 1.1.1
+    transitivePeerDependencies:
+      - '@babel/preset-env'
+      - supports-color
     dev: false
 
   /react-native-get-random-values@1.10.0(react-native@0.73.1):
