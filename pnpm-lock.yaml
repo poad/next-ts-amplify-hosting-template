@@ -85,8 +85,8 @@ importers:
   cdk:
     dependencies:
       '@aws-cdk/aws-amplify-alpha':
-        specifier: 2.128.0-alpha.0
-        version: 2.128.0-alpha.0(aws-cdk-lib@2.129.0)(constructs@10.3.0)
+        specifier: 2.129.0-alpha.0
+        version: 2.129.0-alpha.0(aws-cdk-lib@2.129.0)(constructs@10.3.0)
       aws-cdk-lib:
         specifier: ^2.129.0
         version: 2.129.0(constructs@10.3.0)
@@ -324,11 +324,11 @@ packages:
     resolution: {integrity: sha512-DDt4SLdLOwWCjGtltH4VCST7hpOI5DzieuhGZsBpZ+AgJdSI2GCjklCXm0GCTwJG/SolkL5dtQXyUKgg9luBDg==}
     dev: false
 
-  /@aws-cdk/aws-amplify-alpha@2.128.0-alpha.0(aws-cdk-lib@2.129.0)(constructs@10.3.0):
-    resolution: {integrity: sha512-fekizalXWP+Gko5mAFNF3ESJUT1X3I50GKzNj8K+Lmy5rBVu1zsCWyC7pI68L/Q4s3d/Gyv47Y2xGXROVIKywQ==}
+  /@aws-cdk/aws-amplify-alpha@2.129.0-alpha.0(aws-cdk-lib@2.129.0)(constructs@10.3.0):
+    resolution: {integrity: sha512-ucBD2snXr/Z9EhscooCv/RCc1Q3PB6Xfj/zIz6tmj+ojhESU/R9zzYglhdyOqd6Z7+DEnDmwHNyoLLcizM9I/g==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
-      aws-cdk-lib: ^2.128.0
+      aws-cdk-lib: ^2.129.0
       constructs: ^10.0.0
     dependencies:
       aws-cdk-lib: 2.129.0(constructs@10.3.0)
