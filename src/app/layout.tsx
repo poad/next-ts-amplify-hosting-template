@@ -1,7 +1,7 @@
 import "./globals.css";
 
 import "@aws-amplify/ui-react/styles.css";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 export default function Document({ children }: { children: ReactNode }) {
 	return (
