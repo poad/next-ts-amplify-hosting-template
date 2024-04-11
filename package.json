@@ -21,9 +21,9 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^6.1.6",
+    "@aws-amplify/ui-react": "^6.1.7",
     "aws-amplify": "^6.0.28",
-    "next": "^14.1.4",
+    "next": "^14.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.4.5",
@@ -39,8 +39,8 @@
     "@storybook/react": "^7.6.17",
     "@storybook/testing-library": "^0.2.2",
     "@types/node": "^20.12.7",
-    "@types/react": "^18.2.75",
-    "@types/react-dom": "^18.2.24",
+    "@types/react": "^18.2.77",
+    "@types/react-dom": "^18.2.25",
     "autoprefixer": "^10.4.19",
     "esbuild": "^0.20.2",
     "postcss": "^8.4.38",
