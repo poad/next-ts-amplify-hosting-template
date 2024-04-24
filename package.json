@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@aws-amplify/ui-react": "^6.1.8",
-    "aws-amplify": "^6.0.28",
+    "aws-amplify": "^6.0.30",
     "next": "^14.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -30,13 +30,13 @@
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.0",
-    "@storybook/addon-essentials": "^7.6.17",
-    "@storybook/addon-interactions": "^7.6.17",
-    "@storybook/addon-links": "^7.6.17",
-    "@storybook/blocks": "^7.6.17",
-    "@storybook/nextjs": "^7.6.17",
-    "@storybook/react": "^7.6.17",
+    "@biomejs/biome": "^1.7.1",
+    "@storybook/addon-essentials": "^7.6.18",
+    "@storybook/addon-interactions": "^7.6.18",
+    "@storybook/addon-links": "^7.6.18",
+    "@storybook/blocks": "^7.6.18",
+    "@storybook/nextjs": "^7.6.18",
+    "@storybook/react": "^7.6.18",
     "@storybook/testing-library": "^0.2.2",
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",
@@ -45,7 +45,7 @@
     "esbuild": "^0.20.2",
     "postcss": "^8.4.38",
     "rimraf": "^5.0.5",
-    "storybook": "^7.6.17",
+    "storybook": "^7.6.18",
     "tailwindcss": "^3.4.3",
     "typewind": "^0.1.5"
   },
