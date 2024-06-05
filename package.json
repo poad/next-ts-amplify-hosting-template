@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@aws-amplify/ui-react": "^6.1.12",
-    "aws-amplify": "^6.3.4",
+    "aws-amplify": "^6.3.5",
     "next": "^14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -30,7 +30,7 @@
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.3",
+    "@biomejs/biome": "^1.8.0",
     "@storybook/addon-essentials": "^7.6.19",
     "@storybook/addon-interactions": "^7.6.19",
     "@storybook/addon-links": "^7.6.19",
