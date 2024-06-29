@@ -30,7 +30,7 @@
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.2",
+    "@biomejs/biome": "^1.8.3",
     "@storybook/addon-essentials": "^7.6.20",
     "@storybook/addon-interactions": "^7.6.20",
     "@storybook/addon-links": "^7.6.20",
