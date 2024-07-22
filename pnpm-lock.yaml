@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@aws-amplify/ui-react':
         specifier: ^6.1.13
-        version: 6.1.13(@types/react@18.3.3)(aws-amplify@6.4.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)
+        version: 6.1.13(@types/react@18.3.3)(aws-amplify@6.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)
       aws-amplify:
-        specifier: ^6.4.1
-        version: 6.4.1
+        specifier: ^6.4.2
+        version: 6.4.2
       next:
         specifier: ^14.2.5
         version: 14.2.5(@babel/core@7.24.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -24,8 +24,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       typescript:
-        specifier: ^5.5.3
-        version: 5.5.3
+        specifier: ^5.5.4
+        version: 5.5.4
       web-vitals:
         specifier: ^3.5.2
         version: 3.5.2
@@ -47,10 +47,10 @@ importers:
         version: 7.6.20(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@storybook/nextjs':
         specifier: ^7.6.20
-        version: 7.6.20(@swc/core@1.7.0(@swc/helpers@0.5.5))(@swc/helpers@0.5.5)(esbuild@0.20.2)(next@14.2.5(@babel/core@7.24.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.5.3)(webpack-hot-middleware@2.26.1)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
+        version: 7.6.20(@swc/core@1.7.0(@swc/helpers@0.5.5))(@swc/helpers@0.5.5)(esbuild@0.20.2)(next@14.2.5(@babel/core@7.24.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.5.4)(webpack-hot-middleware@2.26.1)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
       '@storybook/react':
         specifier: ^7.6.20
-        version: 7.6.20(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
+        version: 7.6.20(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
       '@storybook/test':
         specifier: ^8.2.5
         version: 8.2.5(storybook@7.6.20)
@@ -80,10 +80,10 @@ importers:
         version: 7.6.20
       tailwindcss:
         specifier: ^3.4.6
-        version: 3.4.6(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3))
+        version: 3.4.6(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4))
       typewind:
         specifier: ^0.1.6
-        version: 0.1.6(@swc/core@1.7.0(@swc/helpers@0.5.5))(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3))(typescript@5.5.3)
+        version: 0.1.6(@swc/core@1.7.0(@swc/helpers@0.5.5))(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4))(typescript@5.5.4)
 
   cdk:
     dependencies:
@@ -114,10 +114,10 @@ importers:
         version: 0.23.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3)
+        version: 10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4)
       typescript:
-        specifier: ^5.5.3
-        version: 5.5.3
+        specifier: ^5.5.4
+        version: 5.5.4
 
 packages:
 
@@ -136,48 +136,48 @@ packages:
     resolution: {integrity: sha512-Xk1sIhyNC/esHGGVjL/niHLowM0csl/kFO5uawBy4IrWwy0o1G8LGt3jP6nmWGz+USxeeqbihAmp/oVZju6wug==}
     hasBin: true
 
-  '@aws-amplify/analytics@7.0.38':
-    resolution: {integrity: sha512-VeyMwBO61DxZ7jQKuacHdXgrF+5z86wh/HkRcrLwbMNpJ5hkpqFcxavCxiFwgMfh3rrtVDfIQTzD1DePKyDxCQ==}
+  '@aws-amplify/analytics@7.0.39':
+    resolution: {integrity: sha512-Xvf1tT8JovSUVhlxfwbyUCJi8AWLEXHSqWYH0+131BrLZCYppcYmyPDUccJtFGwVXMStHn5yqlmYHTq6oabxsA==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/api-graphql@4.1.9':
-    resolution: {integrity: sha512-P3VB0U/ToUMjgh/wJpJvng7shuxjteRHZB42M2/JCzilZWHuZ47vyr8MiaSP4a196whAk1pYKD/aIsnehyytkg==}
+  '@aws-amplify/api-graphql@4.1.10':
+    resolution: {integrity: sha512-ClFJbHaPjwCn2Ri35VB5tCBgcKuwTEhTQVNxmkZmaQrbd5yhbEKPt9bWMPlLHe37IA5RYNyFVFJyzdGPBfh8Xg==}
 
-  '@aws-amplify/api-rest@4.0.38':
-    resolution: {integrity: sha512-E59ND90K5WlhjDpWwvB4BHqiff4O2SuZk489fjktLF+jcwKKdx8RbVJQrBR8KMF0/h489BrOVM4DHd90oPhNHg==}
+  '@aws-amplify/api-rest@4.0.39':
+    resolution: {integrity: sha512-S3jrHb9hGQDyJxTVCQoKky5MLZDdqQxOH3p8vYOsOU8OtJ4dusrf2gLFqN2FAgyuK9yuc3aFvm4Hw6Zh7JfSgA==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/api@6.0.40':
-    resolution: {integrity: sha512-TVxpQLWBOoVw99JhMtiLgeeKE0rFzBoE6cJZFYExT9WFFNbnvOCusFi3405H+VCj3DifC24ViMJ72Jx4TgnfOQ==}
+  '@aws-amplify/api@6.0.41':
+    resolution: {integrity: sha512-EDzlw9C6By2yyE4sRUxeBp1RZtvuonrYvXTCVpGxeWohCfYAIemFIuj4nCN6SRa2aVlueHX3IEM6AHDKqgZOpA==}
 
-  '@aws-amplify/auth@6.3.9':
-    resolution: {integrity: sha512-cfAylleWRXfQOCsEkn7T1EN+33dq5nZ4OfIIwoO2ENRjfcfIuAazB0kOfbaweJ6o3Ho104/SbthcDU3iU5k3/w==}
+  '@aws-amplify/auth@6.3.10':
+    resolution: {integrity: sha512-vpYXytfd8V2ndAXxYpy/4ZgNnTmT75Wp/TLftwrLWJh1E0iBU+8gph4Zfj3OCK82oCXilw0kTVvoHI26ajkQgw==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/core@6.3.5':
-    resolution: {integrity: sha512-a1PQkjP7HWdzVkFlu5k3boZBlt+VmouBr91qSBlULPW44M+fwaPOormHK7IyUI5k0FpbaPZvFJHmg/RbkkWcFg==}
+  '@aws-amplify/core@6.3.6':
+    resolution: {integrity: sha512-xIARNd6u8GeBUPYlcAE4NzdKepOPOCCmPCNtfz3EVzxmjfcSk5p2Zu1r+ZRbCwQDLv0AKM+NPH4Qj8+6s0rY4g==}
 
   '@aws-amplify/data-schema-types@1.1.1':
     resolution: {integrity: sha512-WhWEEsztpSSxIY0lJ3Ge5iA4g3PBm66SQmy1fBH1FBq0T+cxUBijifOU8MNwf+tf6lGpArMX0RS54HRVF5fUSA==}
 
-  '@aws-amplify/data-schema@1.3.8':
-    resolution: {integrity: sha512-hTkcJIP3Zxwti+TsMRTxQ1Qknv7y80Z2QJML6htZvcSPjlKtxwoEGNtRTS8j7RiVt1rEbOZoQ0g3/1GKWsNTxg==}
+  '@aws-amplify/data-schema@1.3.9':
+    resolution: {integrity: sha512-3KMKcte/SosRksOVgE8Gj/EG94UEqhse1t8NRImQD4iEqAMkakGJNoIqS4/QTSD7vYCmuREU/hhWwT1ITE6f4w==}
 
-  '@aws-amplify/datastore@5.0.40':
-    resolution: {integrity: sha512-QEut+HOIrNkwT/Pder2LzTkOMxzIEoJ2JKi/hS/A2VIJFY9KXC7Vx1b+XbtZloWTYYgpr4UYW35bpjIP3CJg8Q==}
+  '@aws-amplify/datastore@5.0.41':
+    resolution: {integrity: sha512-IMXfExS3/yYYwqtWsFeLSZd1H9Yz/xXian+8DHgmHjSjTVFUOyRm9HQ4hXZzoP1KyzGEAvpJqeV9wLT+Drg41Q==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/notifications@2.0.38':
-    resolution: {integrity: sha512-SRYz13LNm3kpx5WFdOV4IbR64Xn76v3agduJMQrzlp2Gz8rkJcm5EpDlYszHXEwgyzz+YD2vNGRsZrnsUnMiTg==}
+  '@aws-amplify/notifications@2.0.39':
+    resolution: {integrity: sha512-bR/LEDTzbYSgb7L2vqEPpeZLODTSycu/r7K2IuzDduvCcTB62UnNcgXg7yBuHwRFPCfkRtZFx0uevtciTGJfPA==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
-  '@aws-amplify/storage@6.5.1':
-    resolution: {integrity: sha512-luSOTnXISCTGynpD8Vqf98wv5+qN9BpIDp9UEiXLS+bzzJDgzBUjECEPPa/qz78BewDwUcueL8X86ewiiHpIGg==}
+  '@aws-amplify/storage@6.5.2':
+    resolution: {integrity: sha512-6wxBE81qMw7vwdGvIhwTLXM/ZQ4nlgFb8p2QjhXqC4cm5mS0kUxGXhJJ7NdNjFMrax9qxULSi3LJePhzbConLw==}
     peerDependencies:
       '@aws-amplify/core': ^6.1.0
 
@@ -1640,14 +1640,14 @@ packages:
   '@floating-ui/core@0.7.3':
     resolution: {integrity: sha512-buc8BXHmG9l82+OQXOFU3Kr2XQx9ys01U/Q9HMIrZ300iLc8HLMgh7dcCqgYzAzf4BkoQvDcXf5Y+CuEZ5JBYg==}
 
-  '@floating-ui/core@1.6.4':
-    resolution: {integrity: sha512-a4IowK4QkXl4SCWTGUR0INAfEOX3wtsYw3rKK5InQEHMGObkR8Xk44qYQD9P4r6HHw0iIfK6GUKECmY8sTkqRA==}
+  '@floating-ui/core@1.6.5':
+    resolution: {integrity: sha512-8GrTWmoFhm5BsMZOTHeGD2/0FLKLQQHvO/ZmQga4tKempYRLz8aqJGqXVuQgisnMObq2YZ2SgkwctN1LOOxcqA==}
 
   '@floating-ui/dom@0.5.4':
     resolution: {integrity: sha512-419BMceRLq0RrmTSDxn8hf9R3VCJv2K9PUfugh5JyEFmdjzDo+e8U5EdR8nzKq8Yj1htzLm3b6eQEEam3/rrtg==}
 
-  '@floating-ui/dom@1.6.7':
-    resolution: {integrity: sha512-wmVfPG5o2xnKDU4jx/m4w5qva9FWHcnZ8BvzEe90D/RpwsJaTAVYPEPdQ8sbr/N8zZTAHlZUTQdqg8ZUbzHmng==}
+  '@floating-ui/dom@1.6.8':
+    resolution: {integrity: sha512-kx62rP19VZ767Q653wsP1XZCGIirkE09E0QUGNYTM/ttbbQHqcGPdSfWFxUyyNLc/W6aoJRBajOSXhP6GXjC0Q==}
 
   '@floating-ui/react-dom@0.7.2':
     resolution: {integrity: sha512-1T0sJcpHgX/u4I1OzIEhlcrvkUN8ln39nz7fMoE/2HDHrPiMFoOGR7++GYyfUmIQHkkrTinaeQsO3XWubjSvGg==}
@@ -1661,8 +1661,8 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
-  '@floating-ui/utils@0.2.4':
-    resolution: {integrity: sha512-dWO2pw8hhi+WrXq1YJy2yCuWoL20PddgGaqTgVe4cOS9Q6qklXCiA1tJEqX6BEwRNSCP84/afac9hd4MS+zEUA==}
+  '@floating-ui/utils@0.2.5':
+    resolution: {integrity: sha512-sTcG+QZ6fdEUObICavU+aB3Mp8HY4n14wYHdxK4fXjPmv3PXZZeY5RaguJmGyeH/CJQhX3fqKUtS4qc1LoHwhQ==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -2952,8 +2952,8 @@ packages:
   '@types/eslint-scope@3.7.7':
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
 
-  '@types/eslint@8.56.10':
-    resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
+  '@types/eslint@9.6.0':
+    resolution: {integrity: sha512-gi6WQJ7cHRgZxtkQEoyHMppPjq9Kxo5Tjn2prSKDSmZrCz8TZ3jSRCeTJm+WoM+oB0WG37bRqLzaaU3q7JypGg==}
 
   '@types/estree@0.0.51':
     resolution: {integrity: sha512-CuPgU6f3eT/XgKKPqKd/gLZV1Xmvf1a2R5POBOGQa6uv82xpls89HU5zKeVoyR8XzHd1RGNOlQlvUe3CFkjWNQ==}
@@ -3328,8 +3328,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-amplify@6.4.1:
-    resolution: {integrity: sha512-pRk/GocHryRGYePZAW60DdTwnf322kwU1p2KyiopPL+jL2UqTiEQQJs/N17fmUfFgvhVTiPlGEo4byUX8PtVFQ==}
+  aws-amplify@6.4.2:
+    resolution: {integrity: sha512-56VQJdLBTMZEjmYQ1h21tv5P6iCdUQjGlzmkLvUpa30LtsfvnQ+Aync750OB6VG5g0rL1A/H5sscnngCEodKtg==}
 
   aws-cdk-lib@2.149.0:
     resolution: {integrity: sha512-bmbgnF2dEYlsZlVaNoSfcjyIUirnvmsvNXJwBMmUCZn2IZ+YWvkMv+rr4e/GO3gPKrdNzew1jNVvHSYxlun6rA==}
@@ -5221,8 +5221,8 @@ packages:
     peerDependencies:
       webpack: '>=5'
 
-  node-releases@2.0.17:
-    resolution: {integrity: sha512-Ww6ZlOiEQfPfXM45v17oabk77Z7mg5bOt7AjDyzy7RjK9OrLrLC8dyZQoAPEOtFX9SaNf1Tdvr5gRJWdTJj7GA==}
+  node-releases@2.0.18:
+    resolution: {integrity: sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==}
 
   normalize-package-data@2.5.0:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
@@ -6455,8 +6455,8 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typescript@5.5.3:
-    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -6792,9 +6792,9 @@ snapshots:
     dependencies:
       default-browser-id: 3.0.0
 
-  '@aws-amplify/analytics@7.0.38(@aws-amplify/core@6.3.5)':
+  '@aws-amplify/analytics@7.0.39(@aws-amplify/core@6.3.6)':
     dependencies:
-      '@aws-amplify/core': 6.3.5
+      '@aws-amplify/core': 6.3.6
       '@aws-sdk/client-firehose': 3.398.0
       '@aws-sdk/client-kinesis': 3.398.0
       '@aws-sdk/client-personalize-events': 3.398.0
@@ -6803,36 +6803,36 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-amplify/api-graphql@4.1.9':
+  '@aws-amplify/api-graphql@4.1.10':
     dependencies:
-      '@aws-amplify/api-rest': 4.0.38(@aws-amplify/core@6.3.5)
-      '@aws-amplify/core': 6.3.5
-      '@aws-amplify/data-schema': 1.3.8
+      '@aws-amplify/api-rest': 4.0.39(@aws-amplify/core@6.3.6)
+      '@aws-amplify/core': 6.3.6
+      '@aws-amplify/data-schema': 1.3.9
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
       tslib: 2.6.3
       uuid: 9.0.1
 
-  '@aws-amplify/api-rest@4.0.38(@aws-amplify/core@6.3.5)':
+  '@aws-amplify/api-rest@4.0.39(@aws-amplify/core@6.3.6)':
     dependencies:
-      '@aws-amplify/core': 6.3.5
+      '@aws-amplify/core': 6.3.6
       tslib: 2.6.3
 
-  '@aws-amplify/api@6.0.40(@aws-amplify/core@6.3.5)':
+  '@aws-amplify/api@6.0.41(@aws-amplify/core@6.3.6)':
     dependencies:
-      '@aws-amplify/api-graphql': 4.1.9
-      '@aws-amplify/api-rest': 4.0.38(@aws-amplify/core@6.3.5)
+      '@aws-amplify/api-graphql': 4.1.10
+      '@aws-amplify/api-rest': 4.0.39(@aws-amplify/core@6.3.6)
       tslib: 2.6.3
     transitivePeerDependencies:
       - '@aws-amplify/core'
 
-  '@aws-amplify/auth@6.3.9(@aws-amplify/core@6.3.5)':
+  '@aws-amplify/auth@6.3.10(@aws-amplify/core@6.3.6)':
     dependencies:
-      '@aws-amplify/core': 6.3.5
+      '@aws-amplify/core': 6.3.6
       tslib: 2.6.3
 
-  '@aws-amplify/core@6.3.5':
+  '@aws-amplify/core@6.3.6':
     dependencies:
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/types': 3.398.0
@@ -6848,42 +6848,42 @@ snapshots:
       graphql: 15.8.0
       rxjs: 7.8.1
 
-  '@aws-amplify/data-schema@1.3.8':
+  '@aws-amplify/data-schema@1.3.9':
     dependencies:
       '@aws-amplify/data-schema-types': 1.1.1
       '@types/aws-lambda': 8.10.141
       rxjs: 7.8.1
 
-  '@aws-amplify/datastore@5.0.40(@aws-amplify/core@6.3.5)':
+  '@aws-amplify/datastore@5.0.41(@aws-amplify/core@6.3.6)':
     dependencies:
-      '@aws-amplify/api': 6.0.40(@aws-amplify/core@6.3.5)
-      '@aws-amplify/core': 6.3.5
+      '@aws-amplify/api': 6.0.41(@aws-amplify/core@6.3.6)
+      '@aws-amplify/core': 6.3.6
       buffer: 4.9.2
       idb: 5.0.6
       immer: 9.0.6
       rxjs: 7.8.1
       ulid: 2.3.0
 
-  '@aws-amplify/notifications@2.0.38(@aws-amplify/core@6.3.5)':
+  '@aws-amplify/notifications@2.0.39(@aws-amplify/core@6.3.6)':
     dependencies:
-      '@aws-amplify/core': 6.3.5
+      '@aws-amplify/core': 6.3.6
       lodash: 4.17.21
       tslib: 2.6.3
 
-  '@aws-amplify/storage@6.5.1(@aws-amplify/core@6.3.5)':
+  '@aws-amplify/storage@6.5.2(@aws-amplify/core@6.3.6)':
     dependencies:
-      '@aws-amplify/core': 6.3.5
+      '@aws-amplify/core': 6.3.6
       '@aws-sdk/types': 3.398.0
       '@smithy/md5-js': 2.0.7
       buffer: 4.9.2
       fast-xml-parser: 4.4.0
       tslib: 2.6.3
 
-  '@aws-amplify/ui-react-core@3.0.17(@types/react@18.3.3)(aws-amplify@6.4.1)(react@18.3.1)':
+  '@aws-amplify/ui-react-core@3.0.17(@types/react@18.3.3)(aws-amplify@6.4.2)(react@18.3.1)':
     dependencies:
-      '@aws-amplify/ui': 6.0.17(aws-amplify@6.4.1)(xstate@4.38.3)
+      '@aws-amplify/ui': 6.0.17(aws-amplify@6.4.2)(xstate@4.38.3)
       '@xstate/react': 3.2.2(@types/react@18.3.3)(react@18.3.1)(xstate@4.38.3)
-      aws-amplify: 6.4.1
+      aws-amplify: 6.4.2
       lodash: 4.17.21
       react: 18.3.1
       react-hook-form: 7.52.1(react@18.3.1)
@@ -6892,10 +6892,10 @@ snapshots:
       - '@types/react'
       - '@xstate/fsm'
 
-  '@aws-amplify/ui-react@6.1.13(@types/react@18.3.3)(aws-amplify@6.4.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)':
+  '@aws-amplify/ui-react@6.1.13(@types/react@18.3.3)(aws-amplify@6.4.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(xstate@4.38.3)':
     dependencies:
-      '@aws-amplify/ui': 6.0.17(aws-amplify@6.4.1)(xstate@4.38.3)
-      '@aws-amplify/ui-react-core': 3.0.17(@types/react@18.3.3)(aws-amplify@6.4.1)(react@18.3.1)
+      '@aws-amplify/ui': 6.0.17(aws-amplify@6.4.2)(xstate@4.38.3)
+      '@aws-amplify/ui-react-core': 3.0.17(@types/react@18.3.3)(aws-amplify@6.4.2)(react@18.3.1)
       '@radix-ui/react-direction': 1.0.0(react@18.3.1)
       '@radix-ui/react-dropdown-menu': 1.0.0(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-slider': 1.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -6906,15 +6906,15 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       tslib: 2.6.3
     optionalDependencies:
-      aws-amplify: 6.4.1
+      aws-amplify: 6.4.2
     transitivePeerDependencies:
       - '@types/react'
       - '@xstate/fsm'
       - xstate
 
-  '@aws-amplify/ui@6.0.17(aws-amplify@6.4.1)(xstate@4.38.3)':
+  '@aws-amplify/ui@6.0.17(aws-amplify@6.4.2)(xstate@4.38.3)':
     dependencies:
-      aws-amplify: 6.4.1
+      aws-amplify: 6.4.2
       csstype: 3.1.3
       lodash: 4.17.21
       style-dictionary: 3.9.1
@@ -8587,18 +8587,18 @@ snapshots:
 
   '@floating-ui/core@0.7.3': {}
 
-  '@floating-ui/core@1.6.4':
+  '@floating-ui/core@1.6.5':
     dependencies:
-      '@floating-ui/utils': 0.2.4
+      '@floating-ui/utils': 0.2.5
 
   '@floating-ui/dom@0.5.4':
     dependencies:
       '@floating-ui/core': 0.7.3
 
-  '@floating-ui/dom@1.6.7':
+  '@floating-ui/dom@1.6.8':
     dependencies:
-      '@floating-ui/core': 1.6.4
-      '@floating-ui/utils': 0.2.4
+      '@floating-ui/core': 1.6.5
+      '@floating-ui/utils': 0.2.5
 
   '@floating-ui/react-dom@0.7.2(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -8611,11 +8611,11 @@ snapshots:
 
   '@floating-ui/react-dom@2.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@floating-ui/dom': 1.6.7
+      '@floating-ui/dom': 1.6.8
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@floating-ui/utils@0.2.4': {}
+  '@floating-ui/utils@0.2.5': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -9850,7 +9850,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@storybook/builder-webpack5@7.6.20(@swc/helpers@0.5.5)(esbuild@0.20.2)(typescript@5.5.3)':
+  '@storybook/builder-webpack5@7.6.20(@swc/helpers@0.5.5)(esbuild@0.20.2)(typescript@5.5.4)':
     dependencies:
       '@babel/core': 7.24.9
       '@storybook/channels': 7.6.20
@@ -9872,7 +9872,7 @@ snapshots:
       css-loader: 6.11.0(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
       es-module-lexer: 1.5.4
       express: 4.19.2
-      fork-ts-checker-webpack-plugin: 8.0.0(typescript@5.5.3)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
+      fork-ts-checker-webpack-plugin: 8.0.0(typescript@5.5.4)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
       fs-extra: 11.2.0
       html-webpack-plugin: 5.6.0(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
       magic-string: 0.30.10
@@ -9891,7 +9891,7 @@ snapshots:
       webpack-hot-middleware: 2.26.1
       webpack-virtual-modules: 0.5.0
     optionalDependencies:
-      typescript: 5.5.3
+      typescript: 5.5.4
     transitivePeerDependencies:
       - '@rspack/core'
       - '@swc/helpers'
@@ -10169,7 +10169,7 @@ snapshots:
 
   '@storybook/mdx2-csf@1.1.0': {}
 
-  '@storybook/nextjs@7.6.20(@swc/core@1.7.0(@swc/helpers@0.5.5))(@swc/helpers@0.5.5)(esbuild@0.20.2)(next@14.2.5(@babel/core@7.24.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.5.3)(webpack-hot-middleware@2.26.1)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))':
+  '@storybook/nextjs@7.6.20(@swc/core@1.7.0(@swc/helpers@0.5.5))(@swc/helpers@0.5.5)(esbuild@0.20.2)(next@14.2.5(@babel/core@7.24.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.5.4)(webpack-hot-middleware@2.26.1)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))':
     dependencies:
       '@babel/core': 7.24.9
       '@babel/plugin-syntax-bigint': 7.8.3(@babel/core@7.24.9)
@@ -10185,13 +10185,13 @@ snapshots:
       '@babel/preset-typescript': 7.24.7(@babel/core@7.24.9)
       '@babel/runtime': 7.24.8
       '@storybook/addon-actions': 7.6.20
-      '@storybook/builder-webpack5': 7.6.20(@swc/helpers@0.5.5)(esbuild@0.20.2)(typescript@5.5.3)
+      '@storybook/builder-webpack5': 7.6.20(@swc/helpers@0.5.5)(esbuild@0.20.2)(typescript@5.5.4)
       '@storybook/core-common': 7.6.20
       '@storybook/core-events': 7.6.20
       '@storybook/node-logger': 7.6.20
-      '@storybook/preset-react-webpack': 7.6.20(@babel/core@7.24.9)(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.5.3)(webpack-hot-middleware@2.26.1)
+      '@storybook/preset-react-webpack': 7.6.20(@babel/core@7.24.9)(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.5.4)(webpack-hot-middleware@2.26.1)
       '@storybook/preview-api': 7.6.20
-      '@storybook/react': 7.6.20(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
+      '@storybook/react': 7.6.20(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
       '@types/node': 18.19.41
       '@types/semver': 7.5.8
       css-loader: 6.11.0(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
@@ -10201,9 +10201,9 @@ snapshots:
       loader-utils: 3.3.1
       next: 14.2.5(@babel/core@7.24.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       node-polyfill-webpack-plugin: 2.0.1(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
-      pnp-webpack-plugin: 1.7.0(typescript@5.5.3)
+      pnp-webpack-plugin: 1.7.0(typescript@5.5.4)
       postcss: 8.4.39
-      postcss-loader: 7.3.4(postcss@8.4.39)(typescript@5.5.3)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
+      postcss-loader: 7.3.4(postcss@8.4.39)(typescript@5.5.4)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       resolve-url-loader: 5.0.0
@@ -10216,7 +10216,7 @@ snapshots:
       tsconfig-paths: 4.2.0
       tsconfig-paths-webpack-plugin: 4.1.0
     optionalDependencies:
-      typescript: 5.5.3
+      typescript: 5.5.4
       webpack: 5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)
     transitivePeerDependencies:
       - '@rspack/core'
@@ -10243,7 +10243,7 @@ snapshots:
 
   '@storybook/postinstall@7.6.20': {}
 
-  '@storybook/preset-react-webpack@7.6.20(@babel/core@7.24.9)(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.5.3)(webpack-hot-middleware@2.26.1)':
+  '@storybook/preset-react-webpack@7.6.20(@babel/core@7.24.9)(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@5.5.4)(webpack-hot-middleware@2.26.1)':
     dependencies:
       '@babel/preset-flow': 7.24.7(@babel/core@7.24.9)
       '@babel/preset-react': 7.24.7(@babel/core@7.24.9)
@@ -10251,8 +10251,8 @@ snapshots:
       '@storybook/core-webpack': 7.6.20
       '@storybook/docs-tools': 7.6.20
       '@storybook/node-logger': 7.6.20
-      '@storybook/react': 7.6.20(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)
-      '@storybook/react-docgen-typescript-plugin': 1.0.6--canary.9.0c3f3b7.0(typescript@5.5.3)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
+      '@storybook/react': 7.6.20(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)
+      '@storybook/react-docgen-typescript-plugin': 1.0.6--canary.9.0c3f3b7.0(typescript@5.5.4)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))
       '@types/node': 18.19.41
       '@types/semver': 7.5.8
       babel-plugin-add-react-displayname: 0.0.5
@@ -10266,7 +10266,7 @@ snapshots:
       webpack: 5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)
     optionalDependencies:
       '@babel/core': 7.24.9
-      typescript: 5.5.3
+      typescript: 5.5.4
     transitivePeerDependencies:
       - '@swc/core'
       - '@types/webpack'
@@ -10300,16 +10300,16 @@ snapshots:
 
   '@storybook/preview@7.6.20': {}
 
-  '@storybook/react-docgen-typescript-plugin@1.0.6--canary.9.0c3f3b7.0(typescript@5.5.3)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))':
+  '@storybook/react-docgen-typescript-plugin@1.0.6--canary.9.0c3f3b7.0(typescript@5.5.4)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2))':
     dependencies:
       debug: 4.3.5
       endent: 2.1.0
       find-cache-dir: 3.3.2
       flat-cache: 3.2.0
       micromatch: 4.0.7
-      react-docgen-typescript: 2.2.2(typescript@5.5.3)
+      react-docgen-typescript: 2.2.2(typescript@5.5.4)
       tslib: 2.6.3
-      typescript: 5.5.3
+      typescript: 5.5.4
       webpack: 5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)
     transitivePeerDependencies:
       - supports-color
@@ -10319,7 +10319,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@storybook/react@7.6.20(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.3)':
+  '@storybook/react@7.6.20(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4)':
     dependencies:
       '@storybook/client-logger': 7.6.20
       '@storybook/core-client': 7.6.20
@@ -10345,7 +10345,7 @@ snapshots:
       type-fest: 2.19.0
       util-deprecate: 1.0.2
     optionalDependencies:
-      typescript: 5.5.3
+      typescript: 5.5.4
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -10548,10 +10548,10 @@ snapshots:
 
   '@types/eslint-scope@3.7.7':
     dependencies:
-      '@types/eslint': 8.56.10
+      '@types/eslint': 9.6.0
       '@types/estree': 1.0.5
 
-  '@types/eslint@8.56.10':
+  '@types/eslint@9.6.0':
     dependencies:
       '@types/estree': 1.0.5
       '@types/json-schema': 7.0.15
@@ -10948,15 +10948,15 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-amplify@6.4.1:
+  aws-amplify@6.4.2:
     dependencies:
-      '@aws-amplify/analytics': 7.0.38(@aws-amplify/core@6.3.5)
-      '@aws-amplify/api': 6.0.40(@aws-amplify/core@6.3.5)
-      '@aws-amplify/auth': 6.3.9(@aws-amplify/core@6.3.5)
-      '@aws-amplify/core': 6.3.5
-      '@aws-amplify/datastore': 5.0.40(@aws-amplify/core@6.3.5)
-      '@aws-amplify/notifications': 2.0.38(@aws-amplify/core@6.3.5)
-      '@aws-amplify/storage': 6.5.1(@aws-amplify/core@6.3.5)
+      '@aws-amplify/analytics': 7.0.39(@aws-amplify/core@6.3.6)
+      '@aws-amplify/api': 6.0.41(@aws-amplify/core@6.3.6)
+      '@aws-amplify/auth': 6.3.10(@aws-amplify/core@6.3.6)
+      '@aws-amplify/core': 6.3.6
+      '@aws-amplify/datastore': 5.0.41(@aws-amplify/core@6.3.6)
+      '@aws-amplify/notifications': 2.0.39(@aws-amplify/core@6.3.6)
+      '@aws-amplify/storage': 6.5.2(@aws-amplify/core@6.3.6)
       tslib: 2.6.3
     transitivePeerDependencies:
       - aws-crt
@@ -11162,7 +11162,7 @@ snapshots:
     dependencies:
       caniuse-lite: 1.0.30001643
       electron-to-chromium: 1.4.832
-      node-releases: 2.0.17
+      node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
 
   bser@2.1.1:
@@ -11460,14 +11460,14 @@ snapshots:
       path-type: 4.0.0
       yaml: 1.10.2
 
-  cosmiconfig@8.3.6(typescript@5.5.3):
+  cosmiconfig@8.3.6(typescript@5.5.4):
     dependencies:
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
       path-type: 4.0.0
     optionalDependencies:
-      typescript: 5.5.3
+      typescript: 5.5.4
 
   create-ecdh@4.0.4:
     dependencies:
@@ -12127,7 +12127,7 @@ snapshots:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
 
-  fork-ts-checker-webpack-plugin@8.0.0(typescript@5.5.3)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)):
+  fork-ts-checker-webpack-plugin@8.0.0(typescript@5.5.4)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)):
     dependencies:
       '@babel/code-frame': 7.24.7
       chalk: 4.1.2
@@ -12141,7 +12141,7 @@ snapshots:
       schema-utils: 3.3.0
       semver: 7.6.3
       tapable: 2.2.1
-      typescript: 5.5.3
+      typescript: 5.5.4
       webpack: 5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)
 
   form-data@4.0.0:
@@ -13014,7 +13014,7 @@ snapshots:
       vm-browserify: 1.1.2
       webpack: 5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)
 
-  node-releases@2.0.17: {}
+  node-releases@2.0.18: {}
 
   normalize-package-data@2.5.0:
     dependencies:
@@ -13266,9 +13266,9 @@ snapshots:
 
   pngjs@5.0.0: {}
 
-  pnp-webpack-plugin@1.7.0(typescript@5.5.3):
+  pnp-webpack-plugin@1.7.0(typescript@5.5.4):
     dependencies:
-      ts-pnp: 1.2.0(typescript@5.5.3)
+      ts-pnp: 1.2.0(typescript@5.5.4)
     transitivePeerDependencies:
       - typescript
 
@@ -13290,25 +13290,25 @@ snapshots:
       camelcase-css: 2.0.1
       postcss: 8.4.39
 
-  postcss-load-config@3.1.4(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3)):
+  postcss-load-config@3.1.4(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4)):
     dependencies:
       lilconfig: 2.1.0
       yaml: 1.10.2
     optionalDependencies:
       postcss: 8.4.39
-      ts-node: 10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3)
+      ts-node: 10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4)
 
-  postcss-load-config@4.0.2(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3)):
+  postcss-load-config@4.0.2(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4)):
     dependencies:
       lilconfig: 3.1.2
       yaml: 2.4.5
     optionalDependencies:
       postcss: 8.4.39
-      ts-node: 10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3)
+      ts-node: 10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4)
 
-  postcss-loader@7.3.4(postcss@8.4.39)(typescript@5.5.3)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)):
+  postcss-loader@7.3.4(postcss@8.4.39)(typescript@5.5.4)(webpack@5.93.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(esbuild@0.20.2)):
     dependencies:
-      cosmiconfig: 8.3.6(typescript@5.5.3)
+      cosmiconfig: 8.3.6(typescript@5.5.4)
       jiti: 1.21.6
       postcss: 8.4.39
       semver: 7.6.3
@@ -13524,9 +13524,9 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  react-docgen-typescript@2.2.2(typescript@5.5.3):
+  react-docgen-typescript@2.2.2(typescript@5.5.4):
     dependencies:
-      typescript: 5.5.3
+      typescript: 5.5.4
 
   react-docgen@7.0.3:
     dependencies:
@@ -14111,7 +14111,7 @@ snapshots:
 
   tailwind-merge@2.4.0: {}
 
-  tailwindcss@3.4.6(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3)):
+  tailwindcss@3.4.6(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4)):
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -14130,7 +14130,7 @@ snapshots:
       postcss: 8.4.39
       postcss-import: 15.1.0(postcss@8.4.39)
       postcss-js: 4.0.1(postcss@8.4.39)
-      postcss-load-config: 4.0.2(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3))
+      postcss-load-config: 4.0.2(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4))
       postcss-nested: 6.2.0(postcss@8.4.39)
       postcss-selector-parser: 6.1.1
       resolve: 1.22.8
@@ -14272,7 +14272,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3):
+  ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
@@ -14286,15 +14286,15 @@ snapshots:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.5.3
+      typescript: 5.5.4
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     optionalDependencies:
       '@swc/core': 1.7.0(@swc/helpers@0.5.5)
 
-  ts-pnp@1.2.0(typescript@5.5.3):
+  ts-pnp@1.2.0(typescript@5.5.4):
     optionalDependencies:
-      typescript: 5.5.3
+      typescript: 5.5.4
 
   tsconfig-paths-webpack-plugin@4.1.0:
     dependencies:
@@ -14312,7 +14312,7 @@ snapshots:
 
   tslib@2.6.3: {}
 
-  tsup@6.7.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3))(typescript@5.5.3):
+  tsup@6.7.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
       bundle-require: 4.2.1(esbuild@0.17.19)
       cac: 6.7.14
@@ -14322,7 +14322,7 @@ snapshots:
       execa: 5.1.1
       globby: 11.1.0
       joycon: 3.1.1
-      postcss-load-config: 3.1.4(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3))
+      postcss-load-config: 3.1.4(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4))
       resolve-from: 5.0.0
       rollup: 3.29.4
       source-map: 0.8.0-beta.0
@@ -14331,7 +14331,7 @@ snapshots:
     optionalDependencies:
       '@swc/core': 1.7.0(@swc/helpers@0.5.5)
       postcss: 8.4.39
-      typescript: 5.5.3
+      typescript: 5.5.4
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -14359,9 +14359,9 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typescript@5.5.3: {}
+  typescript@5.5.4: {}
 
-  typewind@0.1.6(@swc/core@1.7.0(@swc/helpers@0.5.5))(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3))(typescript@5.5.3):
+  typewind@0.1.6(@swc/core@1.7.0(@swc/helpers@0.5.5))(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
       '@babel/core': 7.24.9
       '@babel/generator': 7.24.10
@@ -14371,7 +14371,7 @@ snapshots:
       eval: 0.1.8
       lightningcss: 1.25.1
       tailwind-merge: 2.4.0
-      tsup: 6.7.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.3))(typescript@5.5.3)
+      tsup: 6.7.0(@swc/core@1.7.0(@swc/helpers@0.5.5))(postcss@8.4.39)(ts-node@10.9.2(@swc/core@1.7.0(@swc/helpers@0.5.5))(@types/node@20.14.11)(typescript@5.5.4))(typescript@5.5.4)
     transitivePeerDependencies:
       - '@swc/core'
       - postcss
