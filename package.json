@@ -46,7 +46,7 @@
     "postcss": "^8.4.40",
     "rimraf": "^5.0.9",
     "storybook": "^7.6.20",
-    "tailwindcss": "^3.4.6",
+    "tailwindcss": "^3.4.7",
     "typewind": "^0.1.6"
   },
   "engines": {
