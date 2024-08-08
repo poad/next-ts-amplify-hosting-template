@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@aws-amplify/ui-react": "^6.1.14",
-    "aws-amplify": "^6.4.4",
+    "aws-amplify": "^6.5.0",
     "next": "^14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -37,7 +37,7 @@
     "@storybook/blocks": "^7.6.20",
     "@storybook/nextjs": "^7.6.20",
     "@storybook/react": "^7.6.20",
-    "@storybook/test": "^8.2.7",
+    "@storybook/test": "^8.2.8",
     "@types/node": "^20.14.14",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -46,7 +46,7 @@
     "postcss": "^8.4.41",
     "rimraf": "^5.0.10",
     "storybook": "^7.6.20",
-    "tailwindcss": "^3.4.7",
+    "tailwindcss": "^3.4.8",
     "typewind": "^0.1.6"
   },
   "engines": {
@@ -54,5 +54,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
+  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
 }
