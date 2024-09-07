@@ -163,8 +163,8 @@ packages:
   '@aws-amplify/data-schema-types@1.1.1':
     resolution: {integrity: sha512-WhWEEsztpSSxIY0lJ3Ge5iA4g3PBm66SQmy1fBH1FBq0T+cxUBijifOU8MNwf+tf6lGpArMX0RS54HRVF5fUSA==}
 
-  '@aws-amplify/data-schema@1.4.0':
-    resolution: {integrity: sha512-aceVqoFxkWPflwSt24xl+vEpeKzmWC5DPdW9MDV9exdBj8hnbR4n4hsd8uiob3zEiNH4UcHHkVvstwhlyBp4Qg==}
+  '@aws-amplify/data-schema@1.5.0':
+    resolution: {integrity: sha512-AcKE1CycRNEcDnI5GGlzfcfxK/EWaeVOy6FR4bRzRCA8Jhg5XKLIKp46jrZfo1NuVOd33Fcdh1jTLWKklOpN2Q==}
 
   '@aws-amplify/datastore@5.0.49':
     resolution: {integrity: sha512-7ESzc1/5rOth3gPi65IJyx4dQbzRTvRxpefcA132C3vAm5BFqKEcDXyZX5sHbSf5OOMmQDsa68GfzhAM10rWPg==}
@@ -4044,8 +4044,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.17:
-    resolution: {integrity: sha512-Q6Q+04tjC2KJ8qsSOSgovvhWcv5t+SmpH6/YfAWmhpE5/r+zw6KQy1/yWVFFNyEBvy68twTTXr2d5eLfCq7QIw==}
+  electron-to-chromium@1.5.18:
+    resolution: {integrity: sha512-1OfuVACu+zKlmjsNdcJuVQuVE61sZOLbNM4JAQ1Rvh6EOj0/EUKhMJjRH73InPlXSh8HIJk1cVZ8pyOV/FMdUQ==}
 
   elliptic@6.5.7:
     resolution: {integrity: sha512-ESVCtTwiA+XhY3wyh24QqRGBoP3rEdDUl3EDUUo9tft074fi19IrdpH7hLCMMP3CIj7jb3W96rn8lt/BqIlt5Q==}
@@ -6809,7 +6809,7 @@ snapshots:
     dependencies:
       '@aws-amplify/api-rest': 4.0.47(@aws-amplify/core@6.4.0)
       '@aws-amplify/core': 6.4.0
-      '@aws-amplify/data-schema': 1.4.0
+      '@aws-amplify/data-schema': 1.5.0
       '@aws-sdk/types': 3.387.0
       graphql: 15.8.0
       rxjs: 7.8.1
@@ -6850,10 +6850,12 @@ snapshots:
       graphql: 15.8.0
       rxjs: 7.8.1
 
-  '@aws-amplify/data-schema@1.4.0':
+  '@aws-amplify/data-schema@1.5.0':
     dependencies:
       '@aws-amplify/data-schema-types': 1.1.1
+      '@smithy/util-base64': 3.0.0
       '@types/aws-lambda': 8.10.145
+      '@types/json-schema': 7.0.15
       rxjs: 7.8.1
 
   '@aws-amplify/datastore@5.0.49(@aws-amplify/core@6.4.0)':
@@ -11237,7 +11239,7 @@ snapshots:
   browserslist@4.23.3:
     dependencies:
       caniuse-lite: 1.0.30001658
-      electron-to-chromium: 1.5.17
+      electron-to-chromium: 1.5.18
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
@@ -11761,7 +11763,7 @@ snapshots:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.17: {}
+  electron-to-chromium@1.5.18: {}
 
   elliptic@6.5.7:
     dependencies:
