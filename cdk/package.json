@@ -8,13 +8,13 @@
     "format-check": "biome format bin && biome format lib",
     "format": "biome format --write bin && biome format --write  lib",
     "check": "biome check bin && biome check lib",
-    "check-fix": "biome check --apply-unsafe bin && biome check --apply-unsafe lib",
+    "check-fix": "biome check --write --unsafe bin && biome check --write --unsafe lib",
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "cdk": "cdk"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^1.9.0",
     "@types/node": "^22.5.4",
     "aws-cdk": "^2.158.0",
     "esbuild": "^0.23.1",

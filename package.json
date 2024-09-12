@@ -11,7 +11,7 @@
     "format-check": "biome format src",
     "format": "biome format --write src",
     "check": "biome check src",
-    "check-fix": "biome check --apply-unsafe src",
+    "check-fix": "biome check --write --unsafe src",
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "clean": "rimraf build",
@@ -30,7 +30,7 @@
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^1.9.0",
     "@storybook/addon-essentials": "^7.6.20",
     "@storybook/addon-interactions": "^7.6.20",
     "@storybook/addon-links": "^7.6.20",
