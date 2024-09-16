@@ -30,7 +30,7 @@
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.0",
+    "@biomejs/biome": "^1.9.1",
     "@storybook/addon-essentials": "^7.6.20",
     "@storybook/addon-interactions": "^7.6.20",
     "@storybook/addon-links": "^7.6.20",
@@ -39,7 +39,7 @@
     "@storybook/react": "^7.6.20",
     "@storybook/test": "^8.3.0",
     "@types/node": "^20.16.5",
-    "@types/react": "^18.3.5",
+    "@types/react": "^18.3.6",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
     "esbuild": "^0.20.2",
