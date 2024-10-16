@@ -21,8 +21,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^6.5.3",
-    "aws-amplify": "^6.6.4",
+    "@aws-amplify/ui-react": "^6.5.4",
+    "aws-amplify": "^6.6.5",
     "next": "^14.2.15",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -46,7 +46,7 @@
     "postcss": "^8.4.47",
     "rimraf": "^5.0.10",
     "storybook": "^7.6.20",
-    "tailwindcss": "^3.4.13",
+    "tailwindcss": "^3.4.14",
     "typewind": "^0.1.6"
   },
   "engines": {
@@ -54,5 +54,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4"
+  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
 }
