@@ -31,7 +31,7 @@
     "@storybook/blocks": "^7.6.20",
     "@storybook/nextjs": "^7.6.20",
     "@storybook/react": "^7.6.20",
-    "@storybook/test": "^8.4.3",
+    "@storybook/test": "^8.4.4",
     "@stylistic/eslint-plugin": "^2.10.1",
     "@stylistic/eslint-plugin-js": "^2.10.1",
     "@stylistic/eslint-plugin-jsx": "^2.10.1",
@@ -42,7 +42,7 @@
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",
     "esbuild": "^0.20.2",
-    "eslint": "^9.14.0",
+    "eslint": "~9.14.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^15.0.3",
     "eslint-import-resolver-typescript": "^3.6.3",
@@ -57,7 +57,7 @@
     "postcss": "^8.4.49",
     "rimraf": "^5.0.10",
     "storybook": "^7.6.20",
-    "tailwindcss": "^3.4.14",
+    "tailwindcss": "^3.4.15",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.14.0",
     "typewind": "^0.1.6"
@@ -67,5 +67,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@9.13.0+sha512.beb9e2a803db336c10c9af682b58ad7181ca0fbd0d4119f2b33d5f2582e96d6c0d93c85b23869295b765170fbdaa92890c0da6ada457415039769edf3c959efe"
+  "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a"
 }
