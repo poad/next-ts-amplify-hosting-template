@@ -17,7 +17,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@aws-amplify/ui-react": "^6.7.0",
+    "@aws-amplify/ui-react": "^6.7.1",
     "aws-amplify": "^6.10.0",
     "next": "^15.0.3",
     "react": "^18.3.1",
@@ -31,7 +31,7 @@
     "@storybook/blocks": "^7.6.20",
     "@storybook/nextjs": "^7.6.20",
     "@storybook/react": "^7.6.20",
-    "@storybook/test": "^8.4.5",
+    "@storybook/test": "^8.4.6",
     "@stylistic/eslint-plugin": "^2.11.0",
     "@stylistic/eslint-plugin-js": "^2.11.0",
     "@stylistic/eslint-plugin-jsx": "^2.11.0",
@@ -42,7 +42,7 @@
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",
     "esbuild": "^0.20.2",
-    "eslint": "^9.15.0",
+    "eslint": "^9.16.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^15.0.3",
     "eslint-import-resolver-typescript": "^3.6.3",
@@ -67,5 +67,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@9.14.3+sha512.c0f53ee99477ed969b82b289ad011a5d16bf1623c957e7f29eabe8d0c00b574c29b8c7f54f6c67ee710c73f285c8154d07ce44b46fe2c0eeb476a90441bac371"
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
 }
