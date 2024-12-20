@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "@aws-amplify/ui-react": "^6.7.2",
-    "aws-amplify": "^6.10.3",
-    "next": "^15.1.0",
+    "aws-amplify": "^6.11.0",
+    "next": "^15.1.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "web-vitals": "^3.5.2"
@@ -38,17 +38,17 @@
     "@stylistic/eslint-plugin-plus": "^2.12.1",
     "@stylistic/eslint-plugin-ts": "^2.12.1",
     "@types/node": "^20.17.10",
-    "@types/react": "^18.3.17",
+    "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "autoprefixer": "^10.4.20",
     "esbuild": "^0.20.2",
     "eslint": "^9.17.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^15.1.0",
+    "eslint-config-next": "^15.1.2",
     "eslint-import-resolver-typescript": "^3.7.0",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jest": "^28.9.0",
+    "eslint-plugin-jest": "^28.10.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-react": "^7.37.2",
@@ -57,7 +57,7 @@
     "postcss": "^8.4.49",
     "rimraf": "^5.0.10",
     "storybook": "^7.6.20",
-    "tailwindcss": "^3.4.16",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.1",
     "typewind": "^0.1.6"
@@ -67,5 +67,5 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
   },
-  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf"
 }
