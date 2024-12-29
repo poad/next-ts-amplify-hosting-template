@@ -139,8 +139,8 @@ importers:
   cdk:
     dependencies:
       '@aws-cdk/aws-amplify-alpha':
-        specifier: 2.163.0-alpha.0
-        version: 2.163.0-alpha.0(aws-cdk-lib@2.173.4(constructs@10.4.2))(constructs@10.4.2)
+        specifier: 2.173.4-alpha.0
+        version: 2.173.4-alpha.0(aws-cdk-lib@2.173.4(constructs@10.4.2))(constructs@10.4.2)
       aws-cdk-lib:
         specifier: ^2.173.4
         version: 2.173.4(constructs@10.4.2)
@@ -298,11 +298,11 @@ packages:
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0':
     resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
 
-  '@aws-cdk/aws-amplify-alpha@2.163.0-alpha.0':
-    resolution: {integrity: sha512-DdXrnksActW0jtXGOo3VBs5K2YduCD+KeCvRhoUL5q9QldZRSGD6EPzrdAkkOjJClTSPpX4xDSKGOiAcK35eUg==}
+  '@aws-cdk/aws-amplify-alpha@2.173.4-alpha.0':
+    resolution: {integrity: sha512-xZcAcE7Bk/c2p69g23dIWHw5VNvNOZ0npejKOjMGvRc2fhvGd96WSUJWLCFBO5683fYvUid8USioJvwGJcoofQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
-      aws-cdk-lib: ^2.163.0
+      aws-cdk-lib: ^2.173.4
       constructs: ^10.0.0
 
   '@aws-cdk/cloud-assembly-schema@38.0.1':
@@ -7739,7 +7739,7 @@ snapshots:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.0': {}
 
-  '@aws-cdk/aws-amplify-alpha@2.163.0-alpha.0(aws-cdk-lib@2.173.4(constructs@10.4.2))(constructs@10.4.2)':
+  '@aws-cdk/aws-amplify-alpha@2.173.4-alpha.0(aws-cdk-lib@2.173.4(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:
       aws-cdk-lib: 2.173.4(constructs@10.4.2)
       constructs: 10.4.2

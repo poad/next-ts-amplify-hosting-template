@@ -28,7 +28,7 @@
     "typescript-eslint": "^8.18.2"
   },
   "dependencies": {
-    "@aws-cdk/aws-amplify-alpha": "2.163.0-alpha.0",
+    "@aws-cdk/aws-amplify-alpha": "2.173.4-alpha.0",
     "aws-cdk-lib": "^2.173.4",
     "constructs": "^10.4.2",
     "source-map-support": "^0.5.21"
