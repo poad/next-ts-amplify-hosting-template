@@ -37,7 +37,7 @@
     "@stylistic/eslint-plugin-jsx": "^2.12.1",
     "@stylistic/eslint-plugin-plus": "^2.12.1",
     "@stylistic/eslint-plugin-ts": "^2.12.1",
-    "@types/node": "^20.17.10",
+    "@types/node": "^20.17.11",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "autoprefixer": "^10.4.20",
