@@ -54,6 +54,7 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-storybook": "^0.8.0",
+    "pnpm": "^10.0.0",
     "postcss": "^8.5.1",
     "rimraf": "^5.0.10",
     "storybook": "^7.6.20",
